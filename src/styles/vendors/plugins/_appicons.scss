@@ -1,0 +1,11 @@
+//
+// App icons
+//
+
+.app-icon,
+.app-icon-outline,
+.app-icon-solid {
+	line-height: 1;
+	font-size: 1rem;
+	color: var(--#{$prefix}text-muted);
+}

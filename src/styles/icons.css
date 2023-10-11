@@ -1,0 +1,8823 @@
+@font-face {
+	font-family: 'app-icon';
+	src: url('../../public/assets/fonts/app-icons/app-icon.eot?eut7fk');
+	src:
+		url('../../public/assets/fonts/app-icons/app-icon.eot?eut7fk#iefix')
+			format('embedded-opentype'),
+		url('../../public/assets/fonts/app-icons/app-icon.ttf?eut7fk')
+			format('truetype'),
+		url('../../public/assets/fonts/app-icons/app-icon.woff?eut7fk')
+			format('woff'),
+		url('../../public/assets/fonts/app-icons/app-icon.svg?eut7fk#app-icon')
+			format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+.app-icon {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'app-icon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	display: inline-flex;
+	direction: ltr;
+	position: relative;
+	display: inline-flex;
+	direction: ltr;
+	position: relative;
+	display: inline-flex;
+	direction: ltr;
+	position: relative;
+	display: inline-flex;
+	direction: ltr;
+	position: relative;
+	display: inline-flex;
+	direction: ltr;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.app-icon-abstract-1 .path1:before {
+	content: '\e900';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-1 .path2:before {
+	content: '\e901';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-2 .path1:before {
+	content: '\e902';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-2 .path2:before {
+	content: '\e903';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-3 .path1:before {
+	content: '\e904';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-3 .path2:before {
+	content: '\e905';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-4 .path1:before {
+	content: '\e906';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-4 .path2:before {
+	content: '\e907';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-5 .path1:before {
+	content: '\e908';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-5 .path2:before {
+	content: '\e909';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-6:before {
+	content: '\e90a';
+}
+.app-icon-abstract-7 .path1:before {
+	content: '\e90b';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-7 .path2:before {
+	content: '\e90c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-8 .path1:before {
+	content: '\e90d';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-8 .path2:before {
+	content: '\e90e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-9 .path1:before {
+	content: '\e90f';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-9 .path2:before {
+	content: '\e910';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-10 .path1:before {
+	content: '\e911';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-10 .path2:before {
+	content: '\e912';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-11 .path1:before {
+	content: '\e913';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-11 .path2:before {
+	content: '\e914';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-12 .path1:before {
+	content: '\e915';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-12 .path2:before {
+	content: '\e916';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-13 .path1:before {
+	content: '\e917';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-13 .path2:before {
+	content: '\e918';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-14 .path1:before {
+	content: '\e919';
+}
+.app-icon-abstract-14 .path2:before {
+	content: '\e91a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-15 .path1:before {
+	content: '\e91b';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-15 .path2:before {
+	content: '\e91c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-16 .path1:before {
+	content: '\e91d';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-16 .path2:before {
+	content: '\e91e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-17 .path1:before {
+	content: '\e91f';
+}
+.app-icon-abstract-17 .path2:before {
+	content: '\e920';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-18 .path1:before {
+	content: '\e921';
+}
+.app-icon-abstract-18 .path2:before {
+	content: '\e922';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-19 .path1:before {
+	content: '\e923';
+}
+.app-icon-abstract-19 .path2:before {
+	content: '\e924';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-20 .path1:before {
+	content: '\e925';
+}
+.app-icon-abstract-20 .path2:before {
+	content: '\e926';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-21 .path1:before {
+	content: '\e927';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-21 .path2:before {
+	content: '\e928';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-22 .path1:before {
+	content: '\e929';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-22 .path2:before {
+	content: '\e92a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-23 .path1:before {
+	content: '\e92b';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-23 .path2:before {
+	content: '\e92c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-24 .path1:before {
+	content: '\e92d';
+}
+.app-icon-abstract-24 .path2:before {
+	content: '\e92e';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-25 .path1:before {
+	content: '\e92f';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-25 .path2:before {
+	content: '\e930';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-26 .path1:before {
+	content: '\e931';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-26 .path2:before {
+	content: '\e932';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-27 .path1:before {
+	content: '\e933';
+}
+.app-icon-abstract-27 .path2:before {
+	content: '\e934';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-28 .path1:before {
+	content: '\e935';
+}
+.app-icon-abstract-28 .path2:before {
+	content: '\e936';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-29 .path1:before {
+	content: '\e937';
+}
+.app-icon-abstract-29 .path2:before {
+	content: '\e938';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-30 .path1:before {
+	content: '\e939';
+}
+.app-icon-abstract-30 .path2:before {
+	content: '\e93a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-31 .path1:before {
+	content: '\e93b';
+}
+.app-icon-abstract-31 .path2:before {
+	content: '\e93c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-32 .path1:before {
+	content: '\e93d';
+}
+.app-icon-abstract-32 .path2:before {
+	content: '\e93e';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-33 .path1:before {
+	content: '\e93f';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-33 .path2:before {
+	content: '\e940';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-34 .path1:before {
+	content: '\e941';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-34 .path2:before {
+	content: '\e942';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-35 .path1:before {
+	content: '\e943';
+}
+.app-icon-abstract-35 .path2:before {
+	content: '\e944';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-36 .path1:before {
+	content: '\e945';
+}
+.app-icon-abstract-36 .path2:before {
+	content: '\e946';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-37 .path1:before {
+	content: '\e947';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-37 .path2:before {
+	content: '\e948';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-38 .path1:before {
+	content: '\e949';
+}
+.app-icon-abstract-38 .path2:before {
+	content: '\e94a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-39 .path1:before {
+	content: '\e94b';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-39 .path2:before {
+	content: '\e94c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-40 .path1:before {
+	content: '\e94d';
+}
+.app-icon-abstract-40 .path2:before {
+	content: '\e94e';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-41 .path1:before {
+	content: '\e94f';
+}
+.app-icon-abstract-41 .path2:before {
+	content: '\e950';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-42 .path1:before {
+	content: '\e951';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-42 .path2:before {
+	content: '\e952';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-43 .path1:before {
+	content: '\e953';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-43 .path2:before {
+	content: '\e954';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-44 .path1:before {
+	content: '\e955';
+}
+.app-icon-abstract-44 .path2:before {
+	content: '\e956';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-45 .path1:before {
+	content: '\e957';
+}
+.app-icon-abstract-45 .path2:before {
+	content: '\e958';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-46 .path1:before {
+	content: '\e959';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-46 .path2:before {
+	content: '\e95a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-47 .path1:before {
+	content: '\e95b';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-47 .path2:before {
+	content: '\e95c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-48 .path1:before {
+	content: '\e95d';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-48 .path2:before {
+	content: '\e95e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-48 .path3:before {
+	content: '\e95f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract-49 .path1:before {
+	content: '\e960';
+
+	opacity: 0.3;
+}
+.app-icon-abstract-49 .path2:before {
+	content: '\e961';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-abstract-49 .path3:before {
+	content: '\e962';
+	position: absolute;
+	left: 0;
+}
+.app-icon-abstract .path1:before {
+	content: '\e963';
+
+	opacity: 0.3;
+}
+.app-icon-abstract .path2:before {
+	content: '\e964';
+	position: absolute;
+	left: 0;
+}
+.app-icon-add-files .path1:before {
+	content: '\e965';
+}
+.app-icon-add-files .path2:before {
+	content: '\e966';
+	position: absolute;
+	left: 0;
+}
+.app-icon-add-files .path3:before {
+	content: '\e967';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-add-folder .path1:before {
+	content: '\e968';
+
+	opacity: 0.3;
+}
+.app-icon-add-folder .path2:before {
+	content: '\e969';
+	position: absolute;
+	left: 0;
+}
+.app-icon-add-item .path1:before {
+	content: '\e96a';
+
+	opacity: 0.3;
+}
+.app-icon-add-item .path2:before {
+	content: '\e96b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-add-item .path3:before {
+	content: '\e96c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-add-notepad .path1:before {
+	content: '\e96d';
+
+	opacity: 0.3;
+}
+.app-icon-add-notepad .path2:before {
+	content: '\e96e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-add-notepad .path3:before {
+	content: '\e96f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-add-notepad .path4:before {
+	content: '\e970';
+	position: absolute;
+	left: 0;
+}
+.app-icon-address-book .path1:before {
+	content: '\e971';
+}
+.app-icon-address-book .path2:before {
+	content: '\e972';
+	position: absolute;
+	left: 0;
+}
+.app-icon-address-book .path3:before {
+	content: '\e973';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-airplane-square .path1:before {
+	content: '\e974';
+
+	opacity: 0.3;
+}
+.app-icon-airplane-square .path2:before {
+	content: '\e975';
+	position: absolute;
+	left: 0;
+}
+.app-icon-airplane .path1:before {
+	content: '\e976';
+
+	opacity: 0.3;
+}
+.app-icon-airplane .path2:before {
+	content: '\e977';
+	position: absolute;
+	left: 0;
+}
+.app-icon-airpod .path1:before {
+	content: '\e978';
+
+	opacity: 0.3;
+}
+.app-icon-airpod .path2:before {
+	content: '\e979';
+	position: absolute;
+	left: 0;
+}
+.app-icon-airpod .path3:before {
+	content: '\e97a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-android .path1:before {
+	content: '\e97b';
+
+	opacity: 0.3;
+}
+.app-icon-android .path2:before {
+	content: '\e97c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-android .path3:before {
+	content: '\e97d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-android .path4:before {
+	content: '\e97e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-android .path5:before {
+	content: '\e97f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-android .path6:before {
+	content: '\e980';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-angular .path1:before {
+	content: '\e981';
+
+	opacity: 0.3;
+}
+.app-icon-angular .path2:before {
+	content: '\e982';
+	position: absolute;
+	left: 0;
+}
+.app-icon-angular .path3:before {
+	content: '\e983';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-apple .path1:before {
+	content: '\e984';
+}
+.app-icon-apple .path2:before {
+	content: '\e985';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-archive-tick .path1:before {
+	content: '\e986';
+
+	opacity: 0.3;
+}
+.app-icon-archive-tick .path2:before {
+	content: '\e987';
+	position: absolute;
+	left: 0;
+}
+.app-icon-archive .path1:before {
+	content: '\e988';
+
+	opacity: 0.3;
+}
+.app-icon-archive .path2:before {
+	content: '\e989';
+	position: absolute;
+	left: 0;
+}
+.app-icon-archive .path3:before {
+	content: '\e98a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-circle-left .path1:before {
+	content: '\e98b';
+
+	opacity: 0.3;
+}
+.app-icon-arrow-circle-left .path2:before {
+	content: '\e98c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-circle-right .path1:before {
+	content: '\e98d';
+
+	opacity: 0.3;
+}
+.app-icon-arrow-circle-right .path2:before {
+	content: '\e98e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-diagonal .path1:before {
+	content: '\e98f';
+
+	opacity: 0.3;
+}
+.app-icon-arrow-diagonal .path2:before {
+	content: '\e990';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-diagonal .path3:before {
+	content: '\e991';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-down-left .path1:before {
+	content: '\e992';
+}
+.app-icon-arrow-down-left .path2:before {
+	content: '\e993';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrow-down-refraction .path1:before {
+	content: '\e994';
+
+	opacity: 0.3;
+}
+.app-icon-arrow-down-refraction .path2:before {
+	content: '\e995';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-down-right .path1:before {
+	content: '\e996';
+}
+.app-icon-arrow-down-right .path2:before {
+	content: '\e997';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrow-down .path1:before {
+	content: '\e998';
+}
+.app-icon-arrow-down .path2:before {
+	content: '\e999';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrow-left .path1:before {
+	content: '\e99a';
+}
+.app-icon-arrow-left .path2:before {
+	content: '\e99b';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrow-mix .path1:before {
+	content: '\e99c';
+}
+.app-icon-arrow-mix .path2:before {
+	content: '\e99d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrow-right-left .path1:before {
+	content: '\e99e';
+
+	opacity: 0.3;
+}
+.app-icon-arrow-right-left .path2:before {
+	content: '\e99f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-right .path1:before {
+	content: '\e9a0';
+}
+.app-icon-arrow-right .path2:before {
+	content: '\e9a1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrow-two-diagonals .path1:before {
+	content: '\e9a2';
+
+	opacity: 0.3;
+}
+.app-icon-arrow-two-diagonals .path2:before {
+	content: '\e9a3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-two-diagonals .path3:before {
+	content: '\e9a4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-two-diagonals .path4:before {
+	content: '\e9a5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-two-diagonals .path5:before {
+	content: '\e9a6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-up-down .path1:before {
+	content: '\e9a7';
+
+	opacity: 0.3;
+}
+.app-icon-arrow-up-down .path2:before {
+	content: '\e9a8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-up-left .path1:before {
+	content: '\e9a9';
+}
+.app-icon-arrow-up-left .path2:before {
+	content: '\e9aa';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrow-up-refraction .path1:before {
+	content: '\e9ab';
+
+	opacity: 0.3;
+}
+.app-icon-arrow-up-refraction .path2:before {
+	content: '\e9ac';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrow-up-right .path1:before {
+	content: '\e9ad';
+}
+.app-icon-arrow-up-right .path2:before {
+	content: '\e9ae';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrow-up .path1:before {
+	content: '\e9af';
+}
+.app-icon-arrow-up .path2:before {
+	content: '\e9b0';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrow-zigzag .path1:before {
+	content: '\e9b1';
+}
+.app-icon-arrow-zigzag .path2:before {
+	content: '\e9b2';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-arrows-circle .path1:before {
+	content: '\e9b3';
+
+	opacity: 0.3;
+}
+.app-icon-arrows-circle .path2:before {
+	content: '\e9b4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-arrows-loop .path1:before {
+	content: '\e9b5';
+
+	opacity: 0.3;
+}
+.app-icon-arrows-loop .path2:before {
+	content: '\e9b6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-artificial-intelligence .path1:before {
+	content: '\e9b7';
+
+	opacity: 0.3;
+}
+.app-icon-artificial-intelligence .path2:before {
+	content: '\e9b8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-artificial-intelligence .path3:before {
+	content: '\e9b9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-artificial-intelligence .path4:before {
+	content: '\e9ba';
+	position: absolute;
+	left: 0;
+}
+.app-icon-artificial-intelligence .path5:before {
+	content: '\e9bb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-artificial-intelligence .path6:before {
+	content: '\e9bc';
+	position: absolute;
+	left: 0;
+}
+.app-icon-artificial-intelligence .path7:before {
+	content: '\e9bd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-artificial-intelligence .path8:before {
+	content: '\e9be';
+	position: absolute;
+	left: 0;
+}
+.app-icon-auto-brightness .path1:before {
+	content: '\e9bf';
+
+	opacity: 0.3;
+}
+.app-icon-auto-brightness .path2:before {
+	content: '\e9c0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-auto-brightness .path3:before {
+	content: '\e9c1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-avalanche .path1:before {
+	content: '\e9c2';
+
+	opacity: 0.3;
+}
+.app-icon-avalanche .path2:before {
+	content: '\e9c3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-award .path1:before {
+	content: '\e9c4';
+
+	opacity: 0.3;
+}
+.app-icon-award .path2:before {
+	content: '\e9c5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-award .path3:before {
+	content: '\e9c6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-badge .path1:before {
+	content: '\e9c7';
+
+	opacity: 0.3;
+}
+.app-icon-badge .path2:before {
+	content: '\e9c8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-badge .path3:before {
+	content: '\e9c9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-badge .path4:before {
+	content: '\e9ca';
+	position: absolute;
+	left: 0;
+}
+.app-icon-badge .path5:before {
+	content: '\e9cb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bandage .path1:before {
+	content: '\e9cc';
+
+	opacity: 0.3;
+}
+.app-icon-bandage .path2:before {
+	content: '\e9cd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bank .path1:before {
+	content: '\e9ce';
+
+	opacity: 0.3;
+}
+.app-icon-bank .path2:before {
+	content: '\e9cf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-barcode .path1:before {
+	content: '\e9d0';
+}
+.app-icon-barcode .path2:before {
+	content: '\e9d1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-barcode .path3:before {
+	content: '\e9d2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-barcode .path4:before {
+	content: '\e9d3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-barcode .path5:before {
+	content: '\e9d4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-barcode .path6:before {
+	content: '\e9d5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-barcode .path7:before {
+	content: '\e9d6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-barcode .path8:before {
+	content: '\e9d7';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-basket-ok .path1:before {
+	content: '\e9d8';
+
+	opacity: 0.3;
+}
+.app-icon-basket-ok .path2:before {
+	content: '\e9d9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-basket-ok .path3:before {
+	content: '\e9da';
+	position: absolute;
+	left: 0;
+}
+.app-icon-basket-ok .path4:before {
+	content: '\e9db';
+	position: absolute;
+	left: 0;
+}
+.app-icon-basket .path1:before {
+	content: '\e9dc';
+
+	opacity: 0.3;
+}
+.app-icon-basket .path2:before {
+	content: '\e9dd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-basket .path3:before {
+	content: '\e9de';
+	position: absolute;
+	left: 0;
+}
+.app-icon-basket .path4:before {
+	content: '\e9df';
+	position: absolute;
+	left: 0;
+}
+.app-icon-behance .path1:before {
+	content: '\e9e0';
+}
+.app-icon-behance .path2:before {
+	content: '\e9e1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-bill .path1:before {
+	content: '\e9e2';
+
+	opacity: 0.3;
+}
+.app-icon-bill .path2:before {
+	content: '\e9e3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bill .path3:before {
+	content: '\e9e4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bill .path4:before {
+	content: '\e9e5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bill .path5:before {
+	content: '\e9e6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bill .path6:before {
+	content: '\e9e7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-binance-usd .path1:before {
+	content: '\e9e8';
+}
+.app-icon-binance-usd .path2:before {
+	content: '\e9e9';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-binance-usd .path3:before {
+	content: '\e9ea';
+	position: absolute;
+	left: 0;
+}
+.app-icon-binance-usd .path4:before {
+	content: '\e9eb';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-binance .path1:before {
+	content: '\e9ec';
+
+	opacity: 0.3;
+}
+.app-icon-binance .path2:before {
+	content: '\e9ed';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-binance .path3:before {
+	content: '\e9ee';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-binance .path4:before {
+	content: '\e9ef';
+	position: absolute;
+	left: 0;
+}
+.app-icon-binance .path5:before {
+	content: '\e9f0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bitcoin .path1:before {
+	content: '\e9f1';
+
+	opacity: 0.3;
+}
+.app-icon-bitcoin .path2:before {
+	content: '\e9f2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-black-down:before {
+	content: '\e9f3';
+}
+.app-icon-black-left-line .path1:before {
+	content: '\e9f4';
+}
+.app-icon-black-left-line .path2:before {
+	content: '\e9f5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-black-left:before {
+	content: '\e9f6';
+}
+.app-icon-black-right-line .path1:before {
+	content: '\e9f7';
+}
+.app-icon-black-right-line .path2:before {
+	content: '\e9f8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-black-right:before {
+	content: '\e9f9';
+}
+.app-icon-black-up:before {
+	content: '\e9fa';
+}
+.app-icon-bluetooth .path1:before {
+	content: '\e9fb';
+}
+.app-icon-bluetooth .path2:before {
+	content: '\e9fc';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-book-open .path1:before {
+	content: '\e9fd';
+
+	opacity: 0.3;
+}
+.app-icon-book-open .path2:before {
+	content: '\e9fe';
+	position: absolute;
+	left: 0;
+}
+.app-icon-book-open .path3:before {
+	content: '\e9ff';
+	position: absolute;
+	left: 0;
+}
+.app-icon-book-open .path4:before {
+	content: '\ea00';
+	position: absolute;
+	left: 0;
+}
+.app-icon-book-square .path1:before {
+	content: '\ea01';
+
+	opacity: 0.3;
+}
+.app-icon-book-square .path2:before {
+	content: '\ea02';
+	position: absolute;
+	left: 0;
+}
+.app-icon-book-square .path3:before {
+	content: '\ea03';
+	position: absolute;
+	left: 0;
+}
+.app-icon-book .path1:before {
+	content: '\ea04';
+
+	opacity: 0.3;
+}
+.app-icon-book .path2:before {
+	content: '\ea05';
+	position: absolute;
+	left: 0;
+}
+.app-icon-book .path3:before {
+	content: '\ea06';
+	position: absolute;
+	left: 0;
+}
+.app-icon-book .path4:before {
+	content: '\ea07';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bookmark-2 .path1:before {
+	content: '\ea08';
+
+	opacity: 0.3;
+}
+.app-icon-bookmark-2 .path2:before {
+	content: '\ea09';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bookmark .path1:before {
+	content: '\ea0a';
+
+	opacity: 0.3;
+}
+.app-icon-bookmark .path2:before {
+	content: '\ea0b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bootstrap .path1:before {
+	content: '\ea0c';
+
+	opacity: 0.3;
+}
+.app-icon-bootstrap .path2:before {
+	content: '\ea0d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bootstrap .path3:before {
+	content: '\ea0e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-briefcase .path1:before {
+	content: '\ea0f';
+
+	opacity: 0.3;
+}
+.app-icon-briefcase .path2:before {
+	content: '\ea10';
+	position: absolute;
+	left: 0;
+}
+.app-icon-brifecase-cros .path1:before {
+	content: '\ea11';
+
+	opacity: 0.3;
+}
+.app-icon-brifecase-cros .path2:before {
+	content: '\ea12';
+	position: absolute;
+	left: 0;
+}
+.app-icon-brifecase-cros .path3:before {
+	content: '\ea13';
+	position: absolute;
+	left: 0;
+}
+.app-icon-brifecase-tick .path1:before {
+	content: '\ea14';
+
+	opacity: 0.3;
+}
+.app-icon-brifecase-tick .path2:before {
+	content: '\ea15';
+	position: absolute;
+	left: 0;
+}
+.app-icon-brifecase-tick .path3:before {
+	content: '\ea16';
+	position: absolute;
+	left: 0;
+}
+.app-icon-brifecase-timer .path1:before {
+	content: '\ea17';
+
+	opacity: 0.3;
+}
+.app-icon-brifecase-timer .path2:before {
+	content: '\ea18';
+	position: absolute;
+	left: 0;
+}
+.app-icon-brifecase-timer .path3:before {
+	content: '\ea19';
+	position: absolute;
+	left: 0;
+}
+.app-icon-brush .path1:before {
+	content: '\ea1a';
+
+	opacity: 0.3;
+}
+.app-icon-brush .path2:before {
+	content: '\ea1b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bucket-square .path1:before {
+	content: '\ea1c';
+
+	opacity: 0.3;
+}
+.app-icon-bucket-square .path2:before {
+	content: '\ea1d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bucket-square .path3:before {
+	content: '\ea1e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bucket .path1:before {
+	content: '\ea1f';
+
+	opacity: 0.3;
+}
+.app-icon-bucket .path2:before {
+	content: '\ea20';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bucket .path3:before {
+	content: '\ea21';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bucket .path4:before {
+	content: '\ea22';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-1 .path1:before {
+	content: '\ea23';
+
+	opacity: 0.3;
+}
+.app-icon-burger-menu-1 .path2:before {
+	content: '\ea24';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-1 .path3:before {
+	content: '\ea25';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-1 .path4:before {
+	content: '\ea26';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-2 .path1:before {
+	content: '\ea27';
+
+	opacity: 0.3;
+}
+.app-icon-burger-menu-2 .path2:before {
+	content: '\ea28';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-2 .path3:before {
+	content: '\ea29';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-2 .path4:before {
+	content: '\ea2a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-2 .path5:before {
+	content: '\ea2b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-2 .path6:before {
+	content: '\ea2c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-2 .path7:before {
+	content: '\ea2d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-2 .path8:before {
+	content: '\ea2e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-2 .path9:before {
+	content: '\ea2f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-2 .path10:before {
+	content: '\ea30';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-3 .path1:before {
+	content: '\ea31';
+
+	opacity: 0.3;
+}
+.app-icon-burger-menu-3 .path2:before {
+	content: '\ea32';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-3 .path3:before {
+	content: '\ea33';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-burger-menu-3 .path4:before {
+	content: '\ea34';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-burger-menu-3 .path5:before {
+	content: '\ea35';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-3 .path6:before {
+	content: '\ea36';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-burger-menu-3 .path7:before {
+	content: '\ea37';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-burger-menu-3 .path8:before {
+	content: '\ea38';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu-3 .path9:before {
+	content: '\ea39';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-burger-menu-4:before {
+	content: '\ea3a';
+}
+.app-icon-burger-menu-5:before {
+	content: '\ea3b';
+}
+.app-icon-burger-menu-6:before {
+	content: '\ea3c';
+}
+.app-icon-burger-menu .path1:before {
+	content: '\ea3d';
+
+	opacity: 0.3;
+}
+.app-icon-burger-menu .path2:before {
+	content: '\ea3e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu .path3:before {
+	content: '\ea3f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-burger-menu .path4:before {
+	content: '\ea40';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bus .path1:before {
+	content: '\ea41';
+
+	opacity: 0.3;
+}
+.app-icon-bus .path2:before {
+	content: '\ea42';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bus .path3:before {
+	content: '\ea43';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bus .path4:before {
+	content: '\ea44';
+	position: absolute;
+	left: 0;
+}
+.app-icon-bus .path5:before {
+	content: '\ea45';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calculator .path1:before {
+	content: '\ea46';
+
+	opacity: 0.3;
+}
+.app-icon-calculator .path2:before {
+	content: '\ea47';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calculator .path3:before {
+	content: '\ea48';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calculator .path4:before {
+	content: '\ea49';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calculator .path5:before {
+	content: '\ea4a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calculator .path6:before {
+	content: '\ea4b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-2 .path1:before {
+	content: '\ea4c';
+
+	opacity: 0.3;
+}
+.app-icon-calendar-2 .path2:before {
+	content: '\ea4d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-2 .path3:before {
+	content: '\ea4e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-2 .path4:before {
+	content: '\ea4f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-2 .path5:before {
+	content: '\ea50';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-8 .path1:before {
+	content: '\ea51';
+
+	opacity: 0.3;
+}
+.app-icon-calendar-8 .path2:before {
+	content: '\ea52';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-8 .path3:before {
+	content: '\ea53';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-8 .path4:before {
+	content: '\ea54';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-8 .path5:before {
+	content: '\ea55';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-8 .path6:before {
+	content: '\ea56';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-add .path1:before {
+	content: '\ea57';
+
+	opacity: 0.3;
+}
+.app-icon-calendar-add .path2:before {
+	content: '\ea58';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-add .path3:before {
+	content: '\ea59';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-add .path4:before {
+	content: '\ea5a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-add .path5:before {
+	content: '\ea5b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-add .path6:before {
+	content: '\ea5c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-edit .path1:before {
+	content: '\ea5d';
+
+	opacity: 0.3;
+}
+.app-icon-calendar-edit .path2:before {
+	content: '\ea5e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-edit .path3:before {
+	content: '\ea5f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-remove .path1:before {
+	content: '\ea60';
+
+	opacity: 0.3;
+}
+.app-icon-calendar-remove .path2:before {
+	content: '\ea61';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-remove .path3:before {
+	content: '\ea62';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-remove .path4:before {
+	content: '\ea63';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-remove .path5:before {
+	content: '\ea64';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-remove .path6:before {
+	content: '\ea65';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-search .path1:before {
+	content: '\ea66';
+
+	opacity: 0.3;
+}
+.app-icon-calendar-search .path2:before {
+	content: '\ea67';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-search .path3:before {
+	content: '\ea68';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-search .path4:before {
+	content: '\ea69';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-tick .path1:before {
+	content: '\ea6a';
+
+	opacity: 0.3;
+}
+.app-icon-calendar-tick .path2:before {
+	content: '\ea6b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-tick .path3:before {
+	content: '\ea6c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-tick .path4:before {
+	content: '\ea6d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-tick .path5:before {
+	content: '\ea6e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar-tick .path6:before {
+	content: '\ea6f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-calendar .path1:before {
+	content: '\ea70';
+
+	opacity: 0.3;
+}
+.app-icon-calendar .path2:before {
+	content: '\ea71';
+	position: absolute;
+	left: 0;
+}
+.app-icon-call .path1:before {
+	content: '\ea72';
+
+	opacity: 0.3;
+}
+.app-icon-call .path2:before {
+	content: '\ea73';
+	position: absolute;
+	left: 0;
+}
+.app-icon-call .path3:before {
+	content: '\ea74';
+	position: absolute;
+	left: 0;
+}
+.app-icon-call .path4:before {
+	content: '\ea75';
+	position: absolute;
+	left: 0;
+}
+.app-icon-call .path5:before {
+	content: '\ea76';
+	position: absolute;
+	left: 0;
+}
+.app-icon-call .path6:before {
+	content: '\ea77';
+	position: absolute;
+	left: 0;
+}
+.app-icon-call .path7:before {
+	content: '\ea78';
+	position: absolute;
+	left: 0;
+}
+.app-icon-call .path8:before {
+	content: '\ea79';
+	position: absolute;
+	left: 0;
+}
+.app-icon-capsule .path1:before {
+	content: '\ea7a';
+
+	opacity: 0.3;
+}
+.app-icon-capsule .path2:before {
+	content: '\ea7b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-car-2 .path1:before {
+	content: '\ea7c';
+}
+.app-icon-car-2 .path2:before {
+	content: '\ea7d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-car-2 .path3:before {
+	content: '\ea7e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-car-2 .path4:before {
+	content: '\ea7f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-car-2 .path5:before {
+	content: '\ea80';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-car-2 .path6:before {
+	content: '\ea81';
+	position: absolute;
+	left: 0;
+}
+.app-icon-car-3 .path1:before {
+	content: '\ea82';
+}
+.app-icon-car-3 .path2:before {
+	content: '\ea83';
+	position: absolute;
+	left: 0;
+}
+.app-icon-car-3 .path3:before {
+	content: '\ea84';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-car .path1:before {
+	content: '\ea85';
+
+	opacity: 0.3;
+}
+.app-icon-car .path2:before {
+	content: '\ea86';
+	position: absolute;
+	left: 0;
+}
+.app-icon-car .path3:before {
+	content: '\ea87';
+	position: absolute;
+	left: 0;
+}
+.app-icon-car .path4:before {
+	content: '\ea88';
+	position: absolute;
+	left: 0;
+}
+.app-icon-car .path5:before {
+	content: '\ea89';
+	position: absolute;
+	left: 0;
+}
+.app-icon-category .path1:before {
+	content: '\ea8a';
+}
+.app-icon-category .path2:before {
+	content: '\ea8b';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-category .path3:before {
+	content: '\ea8c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-category .path4:before {
+	content: '\ea8d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cd .path1:before {
+	content: '\ea8e';
+}
+.app-icon-cd .path2:before {
+	content: '\ea8f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-celsius .path1:before {
+	content: '\ea90';
+}
+.app-icon-celsius .path2:before {
+	content: '\ea91';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-line-down-2 .path1:before {
+	content: '\ea92';
+
+	opacity: 0.3;
+}
+.app-icon-chart-line-down-2 .path2:before {
+	content: '\ea93';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chart-line-down-2 .path3:before {
+	content: '\ea94';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chart-line-down .path1:before {
+	content: '\ea95';
+
+	opacity: 0.3;
+}
+.app-icon-chart-line-down .path2:before {
+	content: '\ea96';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chart-line-star .path1:before {
+	content: '\ea97';
+}
+.app-icon-chart-line-star .path2:before {
+	content: '\ea98';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chart-line-star .path3:before {
+	content: '\ea99';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-line-up-2 .path1:before {
+	content: '\ea9a';
+}
+.app-icon-chart-line-up-2 .path2:before {
+	content: '\ea9b';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-line-up .path1:before {
+	content: '\ea9c';
+}
+.app-icon-chart-line-up .path2:before {
+	content: '\ea9d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-line .path1:before {
+	content: '\ea9e';
+
+	opacity: 0.3;
+}
+.app-icon-chart-line .path2:before {
+	content: '\ea9f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chart-pie-3 .path1:before {
+	content: '\eaa0';
+}
+.app-icon-chart-pie-3 .path2:before {
+	content: '\eaa1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-pie-3 .path3:before {
+	content: '\eaa2';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-pie-4 .path1:before {
+	content: '\eaa3';
+}
+.app-icon-chart-pie-4 .path2:before {
+	content: '\eaa4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-pie-4 .path3:before {
+	content: '\eaa5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-pie-simple .path1:before {
+	content: '\eaa6';
+}
+.app-icon-chart-pie-simple .path2:before {
+	content: '\eaa7';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-pie-too .path1:before {
+	content: '\eaa8';
+
+	opacity: 0.3;
+}
+.app-icon-chart-pie-too .path2:before {
+	content: '\eaa9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chart-simple-2 .path1:before {
+	content: '\eaaa';
+
+	opacity: 0.3;
+}
+.app-icon-chart-simple-2 .path2:before {
+	content: '\eaab';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-simple-2 .path3:before {
+	content: '\eaac';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chart-simple-2 .path4:before {
+	content: '\eaad';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-simple-3 .path1:before {
+	content: '\eaae';
+
+	opacity: 0.3;
+}
+.app-icon-chart-simple-3 .path2:before {
+	content: '\eaaf';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-simple-3 .path3:before {
+	content: '\eab0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chart-simple-3 .path4:before {
+	content: '\eab1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-simple .path1:before {
+	content: '\eab2';
+
+	opacity: 0.3;
+}
+.app-icon-chart-simple .path2:before {
+	content: '\eab3';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart-simple .path3:before {
+	content: '\eab4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chart-simple .path4:before {
+	content: '\eab5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-chart .path1:before {
+	content: '\eab6';
+}
+.app-icon-chart .path2:before {
+	content: '\eab7';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-check-circle .path1:before {
+	content: '\eab8';
+
+	opacity: 0.3;
+}
+.app-icon-check-circle .path2:before {
+	content: '\eab9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-check-square .path1:before {
+	content: '\eaba';
+
+	opacity: 0.3;
+}
+.app-icon-check-square .path2:before {
+	content: '\eabb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-check:before {
+	content: '\eabc';
+}
+.app-icon-cheque .path1:before {
+	content: '\eabd';
+}
+.app-icon-cheque .path2:before {
+	content: '\eabe';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cheque .path3:before {
+	content: '\eabf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cheque .path4:before {
+	content: '\eac0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cheque .path5:before {
+	content: '\eac1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cheque .path6:before {
+	content: '\eac2';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-cheque .path7:before {
+	content: '\eac3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-chrome .path1:before {
+	content: '\eac4';
+
+	opacity: 0.3;
+}
+.app-icon-chrome .path2:before {
+	content: '\eac5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-classmates .path1:before {
+	content: '\eac6';
+}
+.app-icon-classmates .path2:before {
+	content: '\eac7';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-click .path1:before {
+	content: '\eac8';
+}
+.app-icon-click .path2:before {
+	content: '\eac9';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-click .path3:before {
+	content: '\eaca';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-click .path4:before {
+	content: '\eacb';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-click .path5:before {
+	content: '\eacc';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-clipboard .path1:before {
+	content: '\eacd';
+
+	opacity: 0.3;
+}
+.app-icon-clipboard .path2:before {
+	content: '\eace';
+	position: absolute;
+	left: 0;
+}
+.app-icon-clipboard .path3:before {
+	content: '\eacf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cloud-add .path1:before {
+	content: '\ead0';
+}
+.app-icon-cloud-add .path2:before {
+	content: '\ead1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-cloud-change .path1:before {
+	content: '\ead2';
+}
+.app-icon-cloud-change .path2:before {
+	content: '\ead3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cloud-change .path3:before {
+	content: '\ead4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-cloud-download .path1:before {
+	content: '\ead5';
+
+	opacity: 0.3;
+}
+.app-icon-cloud-download .path2:before {
+	content: '\ead6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cloud:before {
+	content: '\ead7';
+}
+.app-icon-code .path1:before {
+	content: '\ead8';
+
+	opacity: 0.3;
+}
+.app-icon-code .path2:before {
+	content: '\ead9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-code .path3:before {
+	content: '\eada';
+	position: absolute;
+	left: 0;
+}
+.app-icon-code .path4:before {
+	content: '\eadb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-coffee .path1:before {
+	content: '\eadc';
+
+	opacity: 0.3;
+}
+.app-icon-coffee .path2:before {
+	content: '\eadd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-coffee .path3:before {
+	content: '\eade';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-coffee .path4:before {
+	content: '\eadf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-coffee .path5:before {
+	content: '\eae0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-coffee .path6:before {
+	content: '\eae1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-color-swatch .path1:before {
+	content: '\eae2';
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path2:before {
+	content: '\eae3';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path3:before {
+	content: '\eae4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path4:before {
+	content: '\eae5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path5:before {
+	content: '\eae6';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path6:before {
+	content: '\eae7';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path7:before {
+	content: '\eae8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path8:before {
+	content: '\eae9';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path9:before {
+	content: '\eaea';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path10:before {
+	content: '\eaeb';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path11:before {
+	content: '\eaec';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path12:before {
+	content: '\eaed';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path13:before {
+	content: '\eaee';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path14:before {
+	content: '\eaef';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path15:before {
+	content: '\eaf0';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path16:before {
+	content: '\eaf1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path17:before {
+	content: '\eaf2';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path18:before {
+	content: '\eaf3';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path19:before {
+	content: '\eaf4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path20:before {
+	content: '\eaf5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-color-swatch .path21:before {
+	content: '\eaf6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-colors-square .path1:before {
+	content: '\eaf7';
+
+	opacity: 0.3;
+}
+.app-icon-colors-square .path2:before {
+	content: '\eaf8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-colors-square .path3:before {
+	content: '\eaf9';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-colors-square .path4:before {
+	content: '\eafa';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-compass .path1:before {
+	content: '\eafb';
+}
+.app-icon-compass .path2:before {
+	content: '\eafc';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-copy-success .path1:before {
+	content: '\eafd';
+}
+.app-icon-copy-success .path2:before {
+	content: '\eafe';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-copy:before {
+	content: '\eaff';
+}
+.app-icon-courier-express .path1:before {
+	content: '\eb00';
+}
+.app-icon-courier-express .path2:before {
+	content: '\eb01';
+	position: absolute;
+	left: 0;
+}
+.app-icon-courier-express .path3:before {
+	content: '\eb02';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-courier-express .path4:before {
+	content: '\eb03';
+	position: absolute;
+	left: 0;
+}
+.app-icon-courier-express .path5:before {
+	content: '\eb04';
+	position: absolute;
+	left: 0;
+}
+.app-icon-courier-express .path6:before {
+	content: '\eb05';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-courier-express .path7:before {
+	content: '\eb06';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-courier .path1:before {
+	content: '\eb07';
+}
+.app-icon-courier .path2:before {
+	content: '\eb08';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-courier .path3:before {
+	content: '\eb09';
+	position: absolute;
+	left: 0;
+}
+.app-icon-credit-cart .path1:before {
+	content: '\eb0a';
+
+	opacity: 0.3;
+}
+.app-icon-credit-cart .path2:before {
+	content: '\eb0b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cross-circle .path1:before {
+	content: '\eb0c';
+
+	opacity: 0.3;
+}
+.app-icon-cross-circle .path2:before {
+	content: '\eb0d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cross-square .path1:before {
+	content: '\eb0e';
+
+	opacity: 0.3;
+}
+.app-icon-cross-square .path2:before {
+	content: '\eb0f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cross .path1:before {
+	content: '\eb10';
+}
+.app-icon-cross .path2:before {
+	content: '\eb11';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-crown-2 .path1:before {
+	content: '\eb12';
+
+	opacity: 0.3;
+}
+.app-icon-crown-2 .path2:before {
+	content: '\eb13';
+	position: absolute;
+	left: 0;
+}
+.app-icon-crown-2 .path3:before {
+	content: '\eb14';
+	position: absolute;
+	left: 0;
+}
+.app-icon-crown .path1:before {
+	content: '\eb15';
+
+	opacity: 0.3;
+}
+.app-icon-crown .path2:before {
+	content: '\eb16';
+	position: absolute;
+	left: 0;
+}
+.app-icon-css .path1:before {
+	content: '\eb17';
+
+	opacity: 0.3;
+}
+.app-icon-css .path2:before {
+	content: '\eb18';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cube-2 .path1:before {
+	content: '\eb19';
+
+	opacity: 0.3;
+}
+.app-icon-cube-2 .path2:before {
+	content: '\eb1a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-cube-2 .path3:before {
+	content: '\eb1b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cube-3 .path1:before {
+	content: '\eb1c';
+
+	opacity: 0.3;
+}
+.app-icon-cube-3 .path2:before {
+	content: '\eb1d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-cup .path1:before {
+	content: '\eb1e';
+
+	opacity: 0.3;
+}
+.app-icon-cup .path2:before {
+	content: '\eb1f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dash .path1:before {
+	content: '\eb20';
+
+	opacity: 0.3;
+}
+.app-icon-dash .path2:before {
+	content: '\eb21';
+	position: absolute;
+	left: 0;
+}
+.app-icon-data .path1:before {
+	content: '\eb22';
+}
+.app-icon-data .path2:before {
+	content: '\eb23';
+	position: absolute;
+	left: 0;
+}
+.app-icon-data .path3:before {
+	content: '\eb24';
+	position: absolute;
+	left: 0;
+}
+.app-icon-data .path4:before {
+	content: '\eb25';
+	position: absolute;
+	left: 0;
+}
+.app-icon-data .path5:before {
+	content: '\eb26';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-delete-files .path1:before {
+	content: '\eb27';
+}
+.app-icon-delete-files .path2:before {
+	content: '\eb28';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-delete-folder .path1:before {
+	content: '\eb29';
+
+	opacity: 0.3;
+}
+.app-icon-delete-folder .path2:before {
+	content: '\eb2a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-2 .path1:before {
+	content: '\eb2b';
+
+	opacity: 0.3;
+}
+.app-icon-delivery-2 .path2:before {
+	content: '\eb2c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-2 .path3:before {
+	content: '\eb2d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-delivery-2 .path4:before {
+	content: '\eb2e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-2 .path5:before {
+	content: '\eb2f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-2 .path6:before {
+	content: '\eb30';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-2 .path7:before {
+	content: '\eb31';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-delivery-2 .path8:before {
+	content: '\eb32';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-2 .path9:before {
+	content: '\eb33';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-3 .path1:before {
+	content: '\eb34';
+
+	opacity: 0.3;
+}
+.app-icon-delivery-3 .path2:before {
+	content: '\eb35';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-3 .path3:before {
+	content: '\eb36';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-24 .path1:before {
+	content: '\eb37';
+}
+.app-icon-delivery-24 .path2:before {
+	content: '\eb38';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-delivery-24 .path3:before {
+	content: '\eb39';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-24 .path4:before {
+	content: '\eb3a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-door .path1:before {
+	content: '\eb3b';
+
+	opacity: 0.3;
+}
+.app-icon-delivery-door .path2:before {
+	content: '\eb3c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-door .path3:before {
+	content: '\eb3d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-door .path4:before {
+	content: '\eb3e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-geolocation .path1:before {
+	content: '\eb3f';
+}
+.app-icon-delivery-geolocation .path2:before {
+	content: '\eb40';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-geolocation .path3:before {
+	content: '\eb41';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-geolocation .path4:before {
+	content: '\eb42';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-delivery-geolocation .path5:before {
+	content: '\eb43';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-time .path1:before {
+	content: '\eb44';
+}
+.app-icon-delivery-time .path2:before {
+	content: '\eb45';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-time .path3:before {
+	content: '\eb46';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-time .path4:before {
+	content: '\eb47';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery-time .path5:before {
+	content: '\eb48';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-delivery .path1:before {
+	content: '\eb49';
+}
+.app-icon-delivery .path2:before {
+	content: '\eb4a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-delivery .path3:before {
+	content: '\eb4b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery .path4:before {
+	content: '\eb4c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-delivery .path5:before {
+	content: '\eb4d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-design-2 .path1:before {
+	content: '\eb4e';
+
+	opacity: 0.3;
+}
+.app-icon-design-2 .path2:before {
+	content: '\eb4f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-design-frame .path1:before {
+	content: '\eb50';
+
+	opacity: 0.3;
+}
+.app-icon-design-frame .path2:before {
+	content: '\eb51';
+	position: absolute;
+	left: 0;
+}
+.app-icon-design-mask .path1:before {
+	content: '\eb52';
+
+	opacity: 0.3;
+}
+.app-icon-design-mask .path2:before {
+	content: '\eb53';
+	position: absolute;
+	left: 0;
+}
+.app-icon-design .path1:before {
+	content: '\eb54';
+
+	opacity: 0.3;
+}
+.app-icon-design .path2:before {
+	content: '\eb55';
+	position: absolute;
+	left: 0;
+}
+.app-icon-devices-2 .path1:before {
+	content: '\eb56';
+
+	opacity: 0.3;
+}
+.app-icon-devices-2 .path2:before {
+	content: '\eb57';
+	position: absolute;
+	left: 0;
+}
+.app-icon-devices-2 .path3:before {
+	content: '\eb58';
+	position: absolute;
+	left: 0;
+}
+.app-icon-devices .path1:before {
+	content: '\eb59';
+
+	opacity: 0.3;
+}
+.app-icon-devices .path2:before {
+	content: '\eb5a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-devices .path3:before {
+	content: '\eb5b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-devices .path4:before {
+	content: '\eb5c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-devices .path5:before {
+	content: '\eb5d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-diamonds .path1:before {
+	content: '\eb5e';
+}
+.app-icon-diamonds .path2:before {
+	content: '\eb5f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-directbox-default .path1:before {
+	content: '\eb60';
+}
+.app-icon-directbox-default .path2:before {
+	content: '\eb61';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-directbox-default .path3:before {
+	content: '\eb62';
+	position: absolute;
+	left: 0;
+}
+.app-icon-directbox-default .path4:before {
+	content: '\eb63';
+	position: absolute;
+	left: 0;
+}
+.app-icon-disconnect .path1:before {
+	content: '\eb64';
+}
+.app-icon-disconnect .path2:before {
+	content: '\eb65';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-disconnect .path3:before {
+	content: '\eb66';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-disconnect .path4:before {
+	content: '\eb67';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-disconnect .path5:before {
+	content: '\eb68';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-discount .path1:before {
+	content: '\eb69';
+
+	opacity: 0.3;
+}
+.app-icon-discount .path2:before {
+	content: '\eb6a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-disk .path1:before {
+	content: '\eb6b';
+
+	opacity: 0.3;
+}
+.app-icon-disk .path2:before {
+	content: '\eb6c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dislike .path1:before {
+	content: '\eb6d';
+}
+.app-icon-dislike .path2:before {
+	content: '\eb6e';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-dj:before {
+	content: '\eb6f';
+}
+.app-icon-document .path1:before {
+	content: '\eb70';
+
+	opacity: 0.3;
+}
+.app-icon-document .path2:before {
+	content: '\eb71';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dollar .path1:before {
+	content: '\eb72';
+
+	opacity: 0.3;
+}
+.app-icon-dollar .path2:before {
+	content: '\eb73';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dollar .path3:before {
+	content: '\eb74';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-circle-vertical .path1:before {
+	content: '\eb75';
+
+	opacity: 0.3;
+}
+.app-icon-dots-circle-vertical .path2:before {
+	content: '\eb76';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-circle-vertical .path3:before {
+	content: '\eb77';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-circle-vertical .path4:before {
+	content: '\eb78';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-circle .path1:before {
+	content: '\eb79';
+
+	opacity: 0.3;
+}
+.app-icon-dots-circle .path2:before {
+	content: '\eb7a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-circle .path3:before {
+	content: '\eb7b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-circle .path4:before {
+	content: '\eb7c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-horizontal .path1:before {
+	content: '\eb7d';
+}
+.app-icon-dots-horizontal .path2:before {
+	content: '\eb7e';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-dots-horizontal .path3:before {
+	content: '\eb7f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-dots-square-vertical .path1:before {
+	content: '\eb80';
+
+	opacity: 0.3;
+}
+.app-icon-dots-square-vertical .path2:before {
+	content: '\eb81';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-square-vertical .path3:before {
+	content: '\eb82';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-square-vertical .path4:before {
+	content: '\eb83';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-square .path1:before {
+	content: '\eb84';
+
+	opacity: 0.3;
+}
+.app-icon-dots-square .path2:before {
+	content: '\eb85';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-square .path3:before {
+	content: '\eb86';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-square .path4:before {
+	content: '\eb87';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dots-vertical .path1:before {
+	content: '\eb88';
+}
+.app-icon-dots-vertical .path2:before {
+	content: '\eb89';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-dots-vertical .path3:before {
+	content: '\eb8a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-double-check-circle .path1:before {
+	content: '\eb8b';
+
+	opacity: 0.3;
+}
+.app-icon-double-check-circle .path2:before {
+	content: '\eb8c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-double-check-circle .path3:before {
+	content: '\eb8d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-double-check .path1:before {
+	content: '\eb8e';
+}
+.app-icon-double-check .path2:before {
+	content: '\eb8f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-double-down .path1:before {
+	content: '\eb90';
+}
+.app-icon-double-down .path2:before {
+	content: '\eb91';
+	position: absolute;
+	left: 0;
+}
+.app-icon-double-down .path3:before {
+	content: '\eb92';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-double-left-arrow .path1:before {
+	content: '\eb93';
+
+	opacity: 0.3;
+}
+.app-icon-double-left-arrow .path2:before {
+	content: '\eb94';
+	position: absolute;
+	left: 0;
+}
+.app-icon-double-left .path1:before {
+	content: '\eb95';
+}
+.app-icon-double-left .path2:before {
+	content: '\eb96';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-double-right-arrow .path1:before {
+	content: '\eb97';
+
+	opacity: 0.3;
+}
+.app-icon-double-right-arrow .path2:before {
+	content: '\eb98';
+	position: absolute;
+	left: 0;
+}
+.app-icon-double-right .path1:before {
+	content: '\eb99';
+}
+.app-icon-double-right .path2:before {
+	content: '\eb9a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-double-up .path1:before {
+	content: '\eb9b';
+}
+.app-icon-double-up .path2:before {
+	content: '\eb9c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-double-up .path3:before {
+	content: '\eb9d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-down-square .path1:before {
+	content: '\eb9e';
+
+	opacity: 0.3;
+}
+.app-icon-down-square .path2:before {
+	content: '\eb9f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-down:before {
+	content: '\eba0';
+}
+.app-icon-dribbble .path1:before {
+	content: '\eba1';
+}
+.app-icon-dribbble .path2:before {
+	content: '\eba2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dribbble .path3:before {
+	content: '\eba3';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-dribbble .path4:before {
+	content: '\eba4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-dribbble .path5:before {
+	content: '\eba5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-dribbble .path6:before {
+	content: '\eba6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-drop .path1:before {
+	content: '\eba7';
+}
+.app-icon-drop .path2:before {
+	content: '\eba8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-dropbox .path1:before {
+	content: '\eba9';
+
+	opacity: 0.4;
+}
+.app-icon-dropbox .path2:before {
+	content: '\ebaa';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.4;
+}
+.app-icon-dropbox .path3:before {
+	content: '\ebab';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.4;
+}
+.app-icon-dropbox .path4:before {
+	content: '\ebac';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.4;
+}
+.app-icon-dropbox .path5:before {
+	content: '\ebad';
+	position: absolute;
+	left: 0;
+}
+.app-icon-educare .path1:before {
+	content: '\ebae';
+
+	opacity: 0.3;
+}
+.app-icon-educare .path2:before {
+	content: '\ebaf';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-educare .path3:before {
+	content: '\ebb0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-educare .path4:before {
+	content: '\ebb1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electricity .path1:before {
+	content: '\ebb2';
+}
+.app-icon-electricity .path2:before {
+	content: '\ebb3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electricity .path3:before {
+	content: '\ebb4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electricity .path4:before {
+	content: '\ebb5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electricity .path5:before {
+	content: '\ebb6';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-electricity .path6:before {
+	content: '\ebb7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electricity .path7:before {
+	content: '\ebb8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electricity .path8:before {
+	content: '\ebb9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electricity .path9:before {
+	content: '\ebba';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electricity .path10:before {
+	content: '\ebbb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electronic-clock .path1:before {
+	content: '\ebbc';
+
+	opacity: 0.3;
+}
+.app-icon-electronic-clock .path2:before {
+	content: '\ebbd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electronic-clock .path3:before {
+	content: '\ebbe';
+	position: absolute;
+	left: 0;
+}
+.app-icon-electronic-clock .path4:before {
+	content: '\ebbf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-1 .path1:before {
+	content: '\ebc0';
+}
+.app-icon-element-1 .path2:before {
+	content: '\ebc1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-1 .path3:before {
+	content: '\ebc2';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-1 .path4:before {
+	content: '\ebc3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-2 .path1:before {
+	content: '\ebc4';
+}
+.app-icon-element-2 .path2:before {
+	content: '\ebc5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-3 .path1:before {
+	content: '\ebc6';
+
+	opacity: 0.3;
+}
+.app-icon-element-3 .path2:before {
+	content: '\ebc7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-4 .path1:before {
+	content: '\ebc8';
+}
+.app-icon-element-4 .path2:before {
+	content: '\ebc9';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-5 .path1:before {
+	content: '\ebca';
+}
+.app-icon-element-5 .path2:before {
+	content: '\ebcb';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-6 .path1:before {
+	content: '\ebcc';
+
+	opacity: 0.3;
+}
+.app-icon-element-6 .path2:before {
+	content: '\ebcd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-7 .path1:before {
+	content: '\ebce';
+}
+.app-icon-element-7 .path2:before {
+	content: '\ebcf';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-8 .path1:before {
+	content: '\ebd0';
+
+	opacity: 0.3;
+}
+.app-icon-element-8 .path2:before {
+	content: '\ebd1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-9 .path1:before {
+	content: '\ebd2';
+
+	opacity: 0.3;
+}
+.app-icon-element-9 .path2:before {
+	content: '\ebd3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-10 .path1:before {
+	content: '\ebd4';
+}
+.app-icon-element-10 .path2:before {
+	content: '\ebd5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-10 .path3:before {
+	content: '\ebd6';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-11 .path1:before {
+	content: '\ebd7';
+}
+.app-icon-element-11 .path2:before {
+	content: '\ebd8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-11 .path3:before {
+	content: '\ebd9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-11 .path4:before {
+	content: '\ebda';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-12 .path1:before {
+	content: '\ebdb';
+
+	opacity: 0.3;
+}
+.app-icon-element-12 .path2:before {
+	content: '\ebdc';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-12 .path3:before {
+	content: '\ebdd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-equal .path1:before {
+	content: '\ebde';
+}
+.app-icon-element-equal .path2:before {
+	content: '\ebdf';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-equal .path3:before {
+	content: '\ebe0';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-equal .path4:before {
+	content: '\ebe1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-equal .path5:before {
+	content: '\ebe2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-plus .path1:before {
+	content: '\ebe3';
+}
+.app-icon-element-plus .path2:before {
+	content: '\ebe4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-plus .path3:before {
+	content: '\ebe5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-element-plus .path4:before {
+	content: '\ebe6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-element-plus .path5:before {
+	content: '\ebe7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-emoji-happy .path1:before {
+	content: '\ebe8';
+
+	opacity: 0.3;
+}
+.app-icon-emoji-happy .path2:before {
+	content: '\ebe9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-emoji-happy .path3:before {
+	content: '\ebea';
+	position: absolute;
+	left: 0;
+}
+.app-icon-emoji-happy .path4:before {
+	content: '\ebeb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-enjin-coin .path1:before {
+	content: '\ebec';
+}
+.app-icon-enjin-coin .path2:before {
+	content: '\ebed';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-entrance-left .path1:before {
+	content: '\ebee';
+}
+.app-icon-entrance-left .path2:before {
+	content: '\ebef';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-entrance-right .path1:before {
+	content: '\ebf0';
+
+	opacity: 0.3;
+}
+.app-icon-entrance-right .path2:before {
+	content: '\ebf1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-eraser .path1:before {
+	content: '\ebf2';
+
+	opacity: 0.3;
+}
+.app-icon-eraser .path2:before {
+	content: '\ebf3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-eraser .path3:before {
+	content: '\ebf4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-euro .path1:before {
+	content: '\ebf5';
+
+	opacity: 0.3;
+}
+.app-icon-euro .path2:before {
+	content: '\ebf6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-euro .path3:before {
+	content: '\ebf7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-exit-down .path1:before {
+	content: '\ebf8';
+
+	opacity: 0.3;
+}
+.app-icon-exit-down .path2:before {
+	content: '\ebf9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-exit-left .path1:before {
+	content: '\ebfa';
+
+	opacity: 0.3;
+}
+.app-icon-exit-left .path2:before {
+	content: '\ebfb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-exit-right-corner .path1:before {
+	content: '\ebfc';
+
+	opacity: 0.3;
+}
+.app-icon-exit-right-corner .path2:before {
+	content: '\ebfd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-exit-right .path1:before {
+	content: '\ebfe';
+
+	opacity: 0.3;
+}
+.app-icon-exit-right .path2:before {
+	content: '\ebff';
+	position: absolute;
+	left: 0;
+}
+.app-icon-exit-up .path1:before {
+	content: '\ec00';
+
+	opacity: 0.3;
+}
+.app-icon-exit-up .path2:before {
+	content: '\ec01';
+	position: absolute;
+	left: 0;
+}
+.app-icon-external-drive .path1:before {
+	content: '\ec02';
+}
+.app-icon-external-drive .path2:before {
+	content: '\ec03';
+	position: absolute;
+	left: 0;
+}
+.app-icon-external-drive .path3:before {
+	content: '\ec04';
+	position: absolute;
+	left: 0;
+}
+.app-icon-external-drive .path4:before {
+	content: '\ec05';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-external-drive .path5:before {
+	content: '\ec06';
+	position: absolute;
+	left: 0;
+}
+.app-icon-eye-slash .path1:before {
+	content: '\ec07';
+}
+.app-icon-eye-slash .path2:before {
+	content: '\ec08';
+	position: absolute;
+	left: 0;
+}
+.app-icon-eye-slash .path3:before {
+	content: '\ec09';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-eye-slash .path4:before {
+	content: '\ec0a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-eye .path1:before {
+	content: '\ec0b';
+}
+.app-icon-eye .path2:before {
+	content: '\ec0c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-eye .path3:before {
+	content: '\ec0d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-facebook .path1:before {
+	content: '\ec0e';
+
+	opacity: 0.3;
+}
+.app-icon-facebook .path2:before {
+	content: '\ec0f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-faceid .path1:before {
+	content: '\ec10';
+
+	opacity: 0.3;
+}
+.app-icon-faceid .path2:before {
+	content: '\ec11';
+	position: absolute;
+	left: 0;
+}
+.app-icon-faceid .path3:before {
+	content: '\ec12';
+	position: absolute;
+	left: 0;
+}
+.app-icon-faceid .path4:before {
+	content: '\ec13';
+	position: absolute;
+	left: 0;
+}
+.app-icon-faceid .path5:before {
+	content: '\ec14';
+	position: absolute;
+	left: 0;
+}
+.app-icon-faceid .path6:before {
+	content: '\ec15';
+	position: absolute;
+	left: 0;
+}
+.app-icon-fasten .path1:before {
+	content: '\ec16';
+
+	opacity: 0.3;
+}
+.app-icon-fasten .path2:before {
+	content: '\ec17';
+	position: absolute;
+	left: 0;
+}
+.app-icon-fat-rows .path1:before {
+	content: '\ec18';
+}
+.app-icon-fat-rows .path2:before {
+	content: '\ec19';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-feather .path1:before {
+	content: '\ec1a';
+
+	opacity: 0.3;
+}
+.app-icon-feather .path2:before {
+	content: '\ec1b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-figma .path1:before {
+	content: '\ec1c';
+
+	opacity: 0.4;
+}
+.app-icon-figma .path2:before {
+	content: '\ec1d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.4;
+}
+.app-icon-figma .path3:before {
+	content: '\ec1e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-figma .path4:before {
+	content: '\ec1f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-figma .path5:before {
+	content: '\ec20';
+	position: absolute;
+	left: 0;
+}
+.app-icon-file-added .path1:before {
+	content: '\ec21';
+}
+.app-icon-file-added .path2:before {
+	content: '\ec22';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-file-deleted .path1:before {
+	content: '\ec23';
+}
+.app-icon-file-deleted .path2:before {
+	content: '\ec24';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-file-down .path1:before {
+	content: '\ec25';
+
+	opacity: 0.3;
+}
+.app-icon-file-down .path2:before {
+	content: '\ec26';
+	position: absolute;
+	left: 0;
+}
+.app-icon-file-left .path1:before {
+	content: '\ec27';
+
+	opacity: 0.3;
+}
+.app-icon-file-left .path2:before {
+	content: '\ec28';
+	position: absolute;
+	left: 0;
+}
+.app-icon-file-right .path1:before {
+	content: '\ec29';
+
+	opacity: 0.3;
+}
+.app-icon-file-right .path2:before {
+	content: '\ec2a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-file-sheet .path1:before {
+	content: '\ec2b';
+}
+.app-icon-file-sheet .path2:before {
+	content: '\ec2c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-file-up .path1:before {
+	content: '\ec2d';
+
+	opacity: 0.3;
+}
+.app-icon-file-up .path2:before {
+	content: '\ec2e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-file .path1:before {
+	content: '\ec2f';
+}
+.app-icon-file .path2:before {
+	content: '\ec30';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-files-tablet .path1:before {
+	content: '\ec31';
+}
+.app-icon-files-tablet .path2:before {
+	content: '\ec32';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-filter-edit .path1:before {
+	content: '\ec33';
+
+	opacity: 0.3;
+}
+.app-icon-filter-edit .path2:before {
+	content: '\ec34';
+	position: absolute;
+	left: 0;
+}
+.app-icon-filter-search .path1:before {
+	content: '\ec35';
+
+	opacity: 0.3;
+}
+.app-icon-filter-search .path2:before {
+	content: '\ec36';
+	position: absolute;
+	left: 0;
+}
+.app-icon-filter-search .path3:before {
+	content: '\ec37';
+	position: absolute;
+	left: 0;
+}
+.app-icon-filter-square .path1:before {
+	content: '\ec38';
+}
+.app-icon-filter-square .path2:before {
+	content: '\ec39';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-filter-tablet .path1:before {
+	content: '\ec3a';
+
+	opacity: 0.3;
+}
+.app-icon-filter-tablet .path2:before {
+	content: '\ec3b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-filter-tick .path1:before {
+	content: '\ec3c';
+
+	opacity: 0.3;
+}
+.app-icon-filter-tick .path2:before {
+	content: '\ec3d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-filter .path1:before {
+	content: '\ec3e';
+}
+.app-icon-filter .path2:before {
+	content: '\ec3f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-finance-calculator .path1:before {
+	content: '\ec40';
+
+	opacity: 0.3;
+}
+.app-icon-finance-calculator .path2:before {
+	content: '\ec41';
+	position: absolute;
+	left: 0;
+}
+.app-icon-finance-calculator .path3:before {
+	content: '\ec42';
+	position: absolute;
+	left: 0;
+}
+.app-icon-finance-calculator .path4:before {
+	content: '\ec43';
+	position: absolute;
+	left: 0;
+}
+.app-icon-finance-calculator .path5:before {
+	content: '\ec44';
+	position: absolute;
+	left: 0;
+}
+.app-icon-finance-calculator .path6:before {
+	content: '\ec45';
+	position: absolute;
+	left: 0;
+}
+.app-icon-finance-calculator .path7:before {
+	content: '\ec46';
+	position: absolute;
+	left: 0;
+}
+.app-icon-financial-schedule .path1:before {
+	content: '\ec47';
+
+	opacity: 0.3;
+}
+.app-icon-financial-schedule .path2:before {
+	content: '\ec48';
+	position: absolute;
+	left: 0;
+}
+.app-icon-financial-schedule .path3:before {
+	content: '\ec49';
+	position: absolute;
+	left: 0;
+}
+.app-icon-financial-schedule .path4:before {
+	content: '\ec4a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-fingerprint-scanning .path1:before {
+	content: '\ec4b';
+}
+.app-icon-fingerprint-scanning .path2:before {
+	content: '\ec4c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-fingerprint-scanning .path3:before {
+	content: '\ec4d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-fingerprint-scanning .path4:before {
+	content: '\ec4e';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-fingerprint-scanning .path5:before {
+	content: '\ec4f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-flag .path1:before {
+	content: '\ec50';
+
+	opacity: 0.3;
+}
+.app-icon-flag .path2:before {
+	content: '\ec51';
+	position: absolute;
+	left: 0;
+}
+.app-icon-flash-circle .path1:before {
+	content: '\ec52';
+
+	opacity: 0.3;
+}
+.app-icon-flash-circle .path2:before {
+	content: '\ec53';
+	position: absolute;
+	left: 0;
+}
+.app-icon-flask .path1:before {
+	content: '\ec54';
+
+	opacity: 0.3;
+}
+.app-icon-flask .path2:before {
+	content: '\ec55';
+	position: absolute;
+	left: 0;
+}
+.app-icon-focus .path1:before {
+	content: '\ec56';
+
+	opacity: 0.3;
+}
+.app-icon-focus .path2:before {
+	content: '\ec57';
+	position: absolute;
+	left: 0;
+}
+.app-icon-folder-added .path1:before {
+	content: '\ec58';
+
+	opacity: 0.3;
+}
+.app-icon-folder-added .path2:before {
+	content: '\ec59';
+	position: absolute;
+	left: 0;
+}
+.app-icon-folder-down .path1:before {
+	content: '\ec5a';
+
+	opacity: 0.3;
+}
+.app-icon-folder-down .path2:before {
+	content: '\ec5b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-folder-up .path1:before {
+	content: '\ec5c';
+
+	opacity: 0.3;
+}
+.app-icon-folder-up .path2:before {
+	content: '\ec5d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-folder .path1:before {
+	content: '\ec5e';
+
+	opacity: 0.3;
+}
+.app-icon-folder .path2:before {
+	content: '\ec5f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-frame .path1:before {
+	content: '\ec60';
+}
+.app-icon-frame .path2:before {
+	content: '\ec61';
+	position: absolute;
+	left: 0;
+}
+.app-icon-frame .path3:before {
+	content: '\ec62';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-frame .path4:before {
+	content: '\ec63';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-gear .path1:before {
+	content: '\ec64';
+
+	opacity: 0.3;
+}
+.app-icon-gear .path2:before {
+	content: '\ec65';
+	position: absolute;
+	left: 0;
+}
+.app-icon-general-mouse .path1:before {
+	content: '\ec66';
+
+	opacity: 0.3;
+}
+.app-icon-general-mouse .path2:before {
+	content: '\ec67';
+	position: absolute;
+	left: 0;
+}
+.app-icon-geolocation-home .path1:before {
+	content: '\ec68';
+
+	opacity: 0.3;
+}
+.app-icon-geolocation-home .path2:before {
+	content: '\ec69';
+	position: absolute;
+	left: 0;
+}
+.app-icon-geolocation .path1:before {
+	content: '\ec6a';
+
+	opacity: 0.3;
+}
+.app-icon-geolocation .path2:before {
+	content: '\ec6b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ghost .path1:before {
+	content: '\ec6c';
+}
+.app-icon-ghost .path2:before {
+	content: '\ec6d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ghost .path3:before {
+	content: '\ec6e';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-gift .path1:before {
+	content: '\ec6f';
+
+	opacity: 0.3;
+}
+.app-icon-gift .path2:before {
+	content: '\ec70';
+	position: absolute;
+	left: 0;
+}
+.app-icon-gift .path3:before {
+	content: '\ec71';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-gift .path4:before {
+	content: '\ec72';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-github .path1:before {
+	content: '\ec73';
+
+	opacity: 0.3;
+}
+.app-icon-github .path2:before {
+	content: '\ec74';
+	position: absolute;
+	left: 0;
+}
+.app-icon-glass .path1:before {
+	content: '\ec75';
+}
+.app-icon-glass .path2:before {
+	content: '\ec76';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-glass .path3:before {
+	content: '\ec77';
+	position: absolute;
+	left: 0;
+}
+.app-icon-google-play .path1:before {
+	content: '\ec78';
+
+	opacity: 0.3;
+}
+.app-icon-google-play .path2:before {
+	content: '\ec79';
+	position: absolute;
+	left: 0;
+}
+.app-icon-google .path1:before {
+	content: '\ec7a';
+
+	opacity: 0.3;
+}
+.app-icon-google .path2:before {
+	content: '\ec7b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph-2 .path1:before {
+	content: '\ec7c';
+
+	opacity: 0.3;
+}
+.app-icon-graph-2 .path2:before {
+	content: '\ec7d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph-2 .path3:before {
+	content: '\ec7e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph-3 .path1:before {
+	content: '\ec7f';
+
+	opacity: 0.3;
+}
+.app-icon-graph-3 .path2:before {
+	content: '\ec80';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph-4 .path1:before {
+	content: '\ec81';
+}
+.app-icon-graph-4 .path2:before {
+	content: '\ec82';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-graph-up .path1:before {
+	content: '\ec83';
+
+	opacity: 0.3;
+}
+.app-icon-graph-up .path2:before {
+	content: '\ec84';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph-up .path3:before {
+	content: '\ec85';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph-up .path4:before {
+	content: '\ec86';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph-up .path5:before {
+	content: '\ec87';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph-up .path6:before {
+	content: '\ec88';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph .path1:before {
+	content: '\ec89';
+
+	opacity: 0.3;
+}
+.app-icon-graph .path2:before {
+	content: '\ec8a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph .path3:before {
+	content: '\ec8b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-graph .path4:before {
+	content: '\ec8c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-grid-2 .path1:before {
+	content: '\ec8d';
+
+	opacity: 0.3;
+}
+.app-icon-grid-2 .path2:before {
+	content: '\ec8e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-grid-frame .path1:before {
+	content: '\ec8f';
+}
+.app-icon-grid-frame .path2:before {
+	content: '\ec90';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-grid-frame .path3:before {
+	content: '\ec91';
+	position: absolute;
+	left: 0;
+}
+.app-icon-grid .path1:before {
+	content: '\ec92';
+
+	opacity: 0.3;
+}
+.app-icon-grid .path2:before {
+	content: '\ec93';
+	position: absolute;
+	left: 0;
+}
+.app-icon-handcart:before {
+	content: '\ec94';
+}
+.app-icon-happy-emoji .path1:before {
+	content: '\ec95';
+
+	opacity: 0.3;
+}
+.app-icon-happy-emoji .path2:before {
+	content: '\ec96';
+	position: absolute;
+	left: 0;
+}
+.app-icon-heart-circle .path1:before {
+	content: '\ec97';
+
+	opacity: 0.3;
+}
+.app-icon-heart-circle .path2:before {
+	content: '\ec98';
+	position: absolute;
+	left: 0;
+}
+.app-icon-heart .path1:before {
+	content: '\ec99';
+
+	opacity: 0.3;
+}
+.app-icon-heart .path2:before {
+	content: '\ec9a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-home-1 .path1:before {
+	content: '\ec9b';
+
+	opacity: 0.3;
+}
+.app-icon-home-1 .path2:before {
+	content: '\ec9c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-home-2 .path1:before {
+	content: '\ec9d';
+
+	opacity: 0.3;
+}
+.app-icon-home-2 .path2:before {
+	content: '\ec9e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-home-3 .path1:before {
+	content: '\ec9f';
+
+	opacity: 0.3;
+}
+.app-icon-home-3 .path2:before {
+	content: '\eca0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-home:before {
+	content: '\eca1';
+}
+.app-icon-html .path1:before {
+	content: '\eca2';
+
+	opacity: 0.3;
+}
+.app-icon-html .path2:before {
+	content: '\eca3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-icon .path1:before {
+	content: '\eca4';
+
+	opacity: 0.3;
+}
+.app-icon-icon .path2:before {
+	content: '\eca5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-icon .path3:before {
+	content: '\eca6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-illustrator .path1:before {
+	content: '\eca7';
+
+	opacity: 0.3;
+}
+.app-icon-illustrator .path2:before {
+	content: '\eca8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-illustrator .path3:before {
+	content: '\eca9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-illustrator .path4:before {
+	content: '\ecaa';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information-2 .path1:before {
+	content: '\ecab';
+
+	opacity: 0.3;
+}
+.app-icon-information-2 .path2:before {
+	content: '\ecac';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information-2 .path3:before {
+	content: '\ecad';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information-3 .path1:before {
+	content: '\ecae';
+
+	opacity: 0.3;
+}
+.app-icon-information-3 .path2:before {
+	content: '\ecaf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information-3 .path3:before {
+	content: '\ecb0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information-4 .path1:before {
+	content: '\ecb1';
+
+	opacity: 0.3;
+}
+.app-icon-information-4 .path2:before {
+	content: '\ecb2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information-4 .path3:before {
+	content: '\ecb3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information-5 .path1:before {
+	content: '\ecb4';
+
+	opacity: 0.3;
+}
+.app-icon-information-5 .path2:before {
+	content: '\ecb5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information-5 .path3:before {
+	content: '\ecb6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information .path1:before {
+	content: '\ecb7';
+
+	opacity: 0.3;
+}
+.app-icon-information .path2:before {
+	content: '\ecb8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-information .path3:before {
+	content: '\ecb9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-instagram .path1:before {
+	content: '\ecba';
+
+	opacity: 0.3;
+}
+.app-icon-instagram .path2:before {
+	content: '\ecbb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-joystick .path1:before {
+	content: '\ecbc';
+}
+.app-icon-joystick .path2:before {
+	content: '\ecbd';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-joystick .path3:before {
+	content: '\ecbe';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-joystick .path4:before {
+	content: '\ecbf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-js-2 .path1:before {
+	content: '\ecc0';
+}
+.app-icon-js-2 .path2:before {
+	content: '\ecc1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-js .path1:before {
+	content: '\ecc2';
+}
+.app-icon-js .path2:before {
+	content: '\ecc3';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-kanban .path1:before {
+	content: '\ecc4';
+}
+.app-icon-kanban .path2:before {
+	content: '\ecc5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-key-square .path1:before {
+	content: '\ecc6';
+
+	opacity: 0.3;
+}
+.app-icon-key-square .path2:before {
+	content: '\ecc7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-key .path1:before {
+	content: '\ecc8';
+
+	opacity: 0.3;
+}
+.app-icon-key .path2:before {
+	content: '\ecc9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-keyboard .path1:before {
+	content: '\ecca';
+}
+.app-icon-keyboard .path2:before {
+	content: '\eccb';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-laptop .path1:before {
+	content: '\eccc';
+
+	opacity: 0.3;
+}
+.app-icon-laptop .path2:before {
+	content: '\eccd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-laravel .path1:before {
+	content: '\ecce';
+
+	opacity: 0.3;
+}
+.app-icon-laravel .path2:before {
+	content: '\eccf';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-laravel .path3:before {
+	content: '\ecd0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-laravel .path4:before {
+	content: '\ecd1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-laravel .path5:before {
+	content: '\ecd2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-laravel .path6:before {
+	content: '\ecd3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-laravel .path7:before {
+	content: '\ecd4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-left-square .path1:before {
+	content: '\ecd5';
+
+	opacity: 0.3;
+}
+.app-icon-left-square .path2:before {
+	content: '\ecd6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-left:before {
+	content: '\ecd7';
+}
+.app-icon-like-2 .path1:before {
+	content: '\ecd8';
+
+	opacity: 0.3;
+}
+.app-icon-like-2 .path2:before {
+	content: '\ecd9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-like-folder .path1:before {
+	content: '\ecda';
+
+	opacity: 0.3;
+}
+.app-icon-like-folder .path2:before {
+	content: '\ecdb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-like-shapes .path1:before {
+	content: '\ecdc';
+
+	opacity: 0.3;
+}
+.app-icon-like-shapes .path2:before {
+	content: '\ecdd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-like-tag .path1:before {
+	content: '\ecde';
+
+	opacity: 0.3;
+}
+.app-icon-like-tag .path2:before {
+	content: '\ecdf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-like .path1:before {
+	content: '\ece0';
+}
+.app-icon-like .path2:before {
+	content: '\ece1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-loading .path1:before {
+	content: '\ece2';
+}
+.app-icon-loading .path2:before {
+	content: '\ece3';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-lock-2 .path1:before {
+	content: '\ece4';
+}
+.app-icon-lock-2 .path2:before {
+	content: '\ece5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lock-2 .path3:before {
+	content: '\ece6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lock-2 .path4:before {
+	content: '\ece7';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-lock-2 .path5:before {
+	content: '\ece8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lock-3 .path1:before {
+	content: '\ece9';
+
+	opacity: 0.3;
+}
+.app-icon-lock-3 .path2:before {
+	content: '\ecea';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lock-3 .path3:before {
+	content: '\eceb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lock .path1:before {
+	content: '\ecec';
+
+	opacity: 0.3;
+}
+.app-icon-lock .path2:before {
+	content: '\eced';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lock .path3:before {
+	content: '\ecee';
+	position: absolute;
+	left: 0;
+}
+.app-icon-logistic .path1:before {
+	content: '\ecef';
+
+	opacity: 0.3;
+}
+.app-icon-logistic .path2:before {
+	content: '\ecf0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-logistic .path3:before {
+	content: '\ecf1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-logistic .path4:before {
+	content: '\ecf2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-logistic .path5:before {
+	content: '\ecf3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-logistic .path6:before {
+	content: '\ecf4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-logistic .path7:before {
+	content: '\ecf5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lots-shopping .path1:before {
+	content: '\ecf6';
+
+	opacity: 0.3;
+}
+.app-icon-lots-shopping .path2:before {
+	content: '\ecf7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lots-shopping .path3:before {
+	content: '\ecf8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-lots-shopping .path4:before {
+	content: '\ecf9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lots-shopping .path5:before {
+	content: '\ecfa';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-lots-shopping .path6:before {
+	content: '\ecfb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lots-shopping .path7:before {
+	content: '\ecfc';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-lots-shopping .path8:before {
+	content: '\ecfd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lovely .path1:before {
+	content: '\ecfe';
+
+	opacity: 0.3;
+}
+.app-icon-lovely .path2:before {
+	content: '\ecff';
+	position: absolute;
+	left: 0;
+}
+.app-icon-lts .path1:before {
+	content: '\ed00';
+}
+.app-icon-lts .path2:before {
+	content: '\ed01';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-magnifier .path1:before {
+	content: '\ed02';
+
+	opacity: 0.3;
+}
+.app-icon-magnifier .path2:before {
+	content: '\ed03';
+	position: absolute;
+	left: 0;
+}
+.app-icon-map .path1:before {
+	content: '\ed04';
+
+	opacity: 0.3;
+}
+.app-icon-map .path2:before {
+	content: '\ed05';
+	position: absolute;
+	left: 0;
+}
+.app-icon-map .path3:before {
+	content: '\ed06';
+	position: absolute;
+	left: 0;
+}
+.app-icon-mask .path1:before {
+	content: '\ed07';
+
+	opacity: 0.3;
+}
+.app-icon-mask .path2:before {
+	content: '\ed08';
+	position: absolute;
+	left: 0;
+}
+.app-icon-mask .path3:before {
+	content: '\ed09';
+	position: absolute;
+	left: 0;
+}
+.app-icon-maximize .path1:before {
+	content: '\ed0a';
+
+	opacity: 0.3;
+}
+.app-icon-maximize .path2:before {
+	content: '\ed0b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-maximize .path3:before {
+	content: '\ed0c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-maximize .path4:before {
+	content: '\ed0d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-maximize .path5:before {
+	content: '\ed0e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-medal-star .path1:before {
+	content: '\ed0f';
+}
+.app-icon-medal-star .path2:before {
+	content: '\ed10';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-medal-star .path3:before {
+	content: '\ed11';
+	position: absolute;
+	left: 0;
+}
+.app-icon-medal-star .path4:before {
+	content: '\ed12';
+	position: absolute;
+	left: 0;
+}
+.app-icon-menu .path1:before {
+	content: '\ed13';
+
+	opacity: 0.3;
+}
+.app-icon-menu .path2:before {
+	content: '\ed14';
+	position: absolute;
+	left: 0;
+}
+.app-icon-menu .path3:before {
+	content: '\ed15';
+	position: absolute;
+	left: 0;
+}
+.app-icon-menu .path4:before {
+	content: '\ed16';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-add .path1:before {
+	content: '\ed17';
+
+	opacity: 0.3;
+}
+.app-icon-message-add .path2:before {
+	content: '\ed18';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-add .path3:before {
+	content: '\ed19';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-edit .path1:before {
+	content: '\ed1a';
+
+	opacity: 0.3;
+}
+.app-icon-message-edit .path2:before {
+	content: '\ed1b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-minus .path1:before {
+	content: '\ed1c';
+
+	opacity: 0.3;
+}
+.app-icon-message-minus .path2:before {
+	content: '\ed1d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-notif .path1:before {
+	content: '\ed1e';
+}
+.app-icon-message-notif .path2:before {
+	content: '\ed1f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-message-notif .path3:before {
+	content: '\ed20';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-notif .path4:before {
+	content: '\ed21';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-notif .path5:before {
+	content: '\ed22';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-programming .path1:before {
+	content: '\ed23';
+
+	opacity: 0.3;
+}
+.app-icon-message-programming .path2:before {
+	content: '\ed24';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-programming .path3:before {
+	content: '\ed25';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-programming .path4:before {
+	content: '\ed26';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-question .path1:before {
+	content: '\ed27';
+
+	opacity: 0.3;
+}
+.app-icon-message-question .path2:before {
+	content: '\ed28';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-question .path3:before {
+	content: '\ed29';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-text-2 .path1:before {
+	content: '\ed2a';
+
+	opacity: 0.3;
+}
+.app-icon-message-text-2 .path2:before {
+	content: '\ed2b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-text-2 .path3:before {
+	content: '\ed2c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-text .path1:before {
+	content: '\ed2d';
+
+	opacity: 0.3;
+}
+.app-icon-message-text .path2:before {
+	content: '\ed2e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-message-text .path3:before {
+	content: '\ed2f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-messages .path1:before {
+	content: '\ed30';
+}
+.app-icon-messages .path2:before {
+	content: '\ed31';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-messages .path3:before {
+	content: '\ed32';
+	position: absolute;
+	left: 0;
+}
+.app-icon-messages .path4:before {
+	content: '\ed33';
+	position: absolute;
+	left: 0;
+}
+.app-icon-messages .path5:before {
+	content: '\ed34';
+	position: absolute;
+	left: 0;
+}
+.app-icon-microsoft .path1:before {
+	content: '\ed35';
+
+	opacity: 0.3;
+}
+.app-icon-microsoft .path2:before {
+	content: '\ed36';
+	position: absolute;
+	left: 0;
+}
+.app-icon-microsoft .path3:before {
+	content: '\ed37';
+	position: absolute;
+	left: 0;
+}
+.app-icon-microsoft .path4:before {
+	content: '\ed38';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-milk .path1:before {
+	content: '\ed39';
+
+	opacity: 0.3;
+}
+.app-icon-milk .path2:before {
+	content: '\ed3a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-milk .path3:before {
+	content: '\ed3b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-minus-circle .path1:before {
+	content: '\ed3c';
+
+	opacity: 0.3;
+}
+.app-icon-minus-circle .path2:before {
+	content: '\ed3d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-minus-folder .path1:before {
+	content: '\ed3e';
+
+	opacity: 0.3;
+}
+.app-icon-minus-folder .path2:before {
+	content: '\ed3f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-minus-square .path1:before {
+	content: '\ed40';
+
+	opacity: 0.3;
+}
+.app-icon-minus-square .path2:before {
+	content: '\ed41';
+	position: absolute;
+	left: 0;
+}
+.app-icon-minus:before {
+	content: '\ed42';
+}
+.app-icon-monitor-mobile .path1:before {
+	content: '\ed43';
+
+	opacity: 0.3;
+}
+.app-icon-monitor-mobile .path2:before {
+	content: '\ed44';
+	position: absolute;
+	left: 0;
+}
+.app-icon-moon .path1:before {
+	content: '\ed45';
+}
+.app-icon-moon .path2:before {
+	content: '\ed46';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-more-2 .path1:before {
+	content: '\ed47';
+
+	opacity: 0.3;
+}
+.app-icon-more-2 .path2:before {
+	content: '\ed48';
+	position: absolute;
+	left: 0;
+}
+.app-icon-more-2 .path3:before {
+	content: '\ed49';
+	position: absolute;
+	left: 0;
+}
+.app-icon-more-2 .path4:before {
+	content: '\ed4a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-mouse-circle .path1:before {
+	content: '\ed4b';
+}
+.app-icon-mouse-circle .path2:before {
+	content: '\ed4c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-mouse-square .path1:before {
+	content: '\ed4d';
+
+	opacity: 0.3;
+}
+.app-icon-mouse-square .path2:before {
+	content: '\ed4e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-mouse .path1:before {
+	content: '\ed4f';
+
+	opacity: 0.3;
+}
+.app-icon-mouse .path2:before {
+	content: '\ed50';
+	position: absolute;
+	left: 0;
+}
+.app-icon-nexo .path1:before {
+	content: '\ed51';
+
+	opacity: 0.3;
+}
+.app-icon-nexo .path2:before {
+	content: '\ed52';
+	position: absolute;
+	left: 0;
+}
+.app-icon-night-day .path1:before {
+	content: '\ed53';
+}
+.app-icon-night-day .path2:before {
+	content: '\ed54';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-night-day .path3:before {
+	content: '\ed55';
+	position: absolute;
+	left: 0;
+}
+.app-icon-night-day .path4:before {
+	content: '\ed56';
+	position: absolute;
+	left: 0;
+}
+.app-icon-night-day .path5:before {
+	content: '\ed57';
+	position: absolute;
+	left: 0;
+}
+.app-icon-night-day .path6:before {
+	content: '\ed58';
+	position: absolute;
+	left: 0;
+}
+.app-icon-night-day .path7:before {
+	content: '\ed59';
+	position: absolute;
+	left: 0;
+}
+.app-icon-night-day .path8:before {
+	content: '\ed5a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-night-day .path9:before {
+	content: '\ed5b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-night-day .path10:before {
+	content: '\ed5c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-note-2 .path1:before {
+	content: '\ed5d';
+
+	opacity: 0.3;
+}
+.app-icon-note-2 .path2:before {
+	content: '\ed5e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-note-2 .path3:before {
+	content: '\ed5f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-note-2 .path4:before {
+	content: '\ed60';
+	position: absolute;
+	left: 0;
+}
+.app-icon-note .path1:before {
+	content: '\ed61';
+
+	opacity: 0.3;
+}
+.app-icon-note .path2:before {
+	content: '\ed62';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notepad-bookmark .path1:before {
+	content: '\ed63';
+}
+.app-icon-notepad-bookmark .path2:before {
+	content: '\ed64';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notepad-bookmark .path3:before {
+	content: '\ed65';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notepad-bookmark .path4:before {
+	content: '\ed66';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notepad-bookmark .path5:before {
+	content: '\ed67';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notepad-bookmark .path6:before {
+	content: '\ed68';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-notepad-edit .path1:before {
+	content: '\ed69';
+
+	opacity: 0.3;
+}
+.app-icon-notepad-edit .path2:before {
+	content: '\ed6a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notepad .path1:before {
+	content: '\ed6b';
+}
+.app-icon-notepad .path2:before {
+	content: '\ed6c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notepad .path3:before {
+	content: '\ed6d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-notepad .path4:before {
+	content: '\ed6e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notepad .path5:before {
+	content: '\ed6f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification-2 .path1:before {
+	content: '\ed70';
+}
+.app-icon-notification-2 .path2:before {
+	content: '\ed71';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-notification-bing .path1:before {
+	content: '\ed72';
+}
+.app-icon-notification-bing .path2:before {
+	content: '\ed73';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-notification-bing .path3:before {
+	content: '\ed74';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification-circle .path1:before {
+	content: '\ed75';
+}
+.app-icon-notification-circle .path2:before {
+	content: '\ed76';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-notification-favorite .path1:before {
+	content: '\ed77';
+}
+.app-icon-notification-favorite .path2:before {
+	content: '\ed78';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-notification-favorite .path3:before {
+	content: '\ed79';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification-on .path1:before {
+	content: '\ed7a';
+
+	opacity: 0.3;
+}
+.app-icon-notification-on .path2:before {
+	content: '\ed7b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification-on .path3:before {
+	content: '\ed7c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification-on .path4:before {
+	content: '\ed7d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification-on .path5:before {
+	content: '\ed7e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification-status .path1:before {
+	content: '\ed7f';
+}
+.app-icon-notification-status .path2:before {
+	content: '\ed80';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-notification-status .path3:before {
+	content: '\ed81';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification-status .path4:before {
+	content: '\ed82';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification .path1:before {
+	content: '\ed83';
+
+	opacity: 0.3;
+}
+.app-icon-notification .path2:before {
+	content: '\ed84';
+	position: absolute;
+	left: 0;
+}
+.app-icon-notification .path3:before {
+	content: '\ed85';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ocean .path1:before {
+	content: '\ed86';
+}
+.app-icon-ocean .path2:before {
+	content: '\ed87';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ocean .path3:before {
+	content: '\ed88';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ocean .path4:before {
+	content: '\ed89';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ocean .path5:before {
+	content: '\ed8a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ocean .path6:before {
+	content: '\ed8b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ocean .path7:before {
+	content: '\ed8c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ocean .path8:before {
+	content: '\ed8d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ocean .path9:before {
+	content: '\ed8e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ocean .path10:before {
+	content: '\ed8f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ocean .path11:before {
+	content: '\ed90';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ocean .path12:before {
+	content: '\ed91';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ocean .path13:before {
+	content: '\ed92';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ocean .path14:before {
+	content: '\ed93';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ocean .path15:before {
+	content: '\ed94';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ocean .path16:before {
+	content: '\ed95';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ocean .path17:before {
+	content: '\ed96';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ocean .path18:before {
+	content: '\ed97';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ocean .path19:before {
+	content: '\ed98';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-office-bag .path1:before {
+	content: '\ed99';
+
+	opacity: 0.3;
+}
+.app-icon-office-bag .path2:before {
+	content: '\ed9a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-office-bag .path3:before {
+	content: '\ed9b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-office-bag .path4:before {
+	content: '\ed9c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-package .path1:before {
+	content: '\ed9d';
+
+	opacity: 0.3;
+}
+.app-icon-package .path2:before {
+	content: '\ed9e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-package .path3:before {
+	content: '\ed9f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pails .path1:before {
+	content: '\eda0';
+
+	opacity: 0.3;
+}
+.app-icon-pails .path2:before {
+	content: '\eda1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pails .path3:before {
+	content: '\eda2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pails .path4:before {
+	content: '\eda3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pails .path5:before {
+	content: '\eda4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pails .path6:before {
+	content: '\eda5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pails .path7:before {
+	content: '\eda6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pails .path8:before {
+	content: '\eda7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pails .path9:before {
+	content: '\eda8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-paintbucket .path1:before {
+	content: '\eda9';
+
+	opacity: 0.3;
+}
+.app-icon-paintbucket .path2:before {
+	content: '\edaa';
+	position: absolute;
+	left: 0;
+}
+.app-icon-paintbucket .path3:before {
+	content: '\edab';
+	position: absolute;
+	left: 0;
+}
+.app-icon-paper-clip:before {
+	content: '\edac';
+}
+.app-icon-parcel-tracking .path1:before {
+	content: '\edad';
+}
+.app-icon-parcel-tracking .path2:before {
+	content: '\edae';
+	position: absolute;
+	left: 0;
+}
+.app-icon-parcel-tracking .path3:before {
+	content: '\edaf';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-parcel .path1:before {
+	content: '\edb0';
+
+	opacity: 0.3;
+}
+.app-icon-parcel .path2:before {
+	content: '\edb1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-parcel .path3:before {
+	content: '\edb2';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-parcel .path4:before {
+	content: '\edb3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-parcel .path5:before {
+	content: '\edb4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-password-check .path1:before {
+	content: '\edb5';
+}
+.app-icon-password-check .path2:before {
+	content: '\edb6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-password-check .path3:before {
+	content: '\edb7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-password-check .path4:before {
+	content: '\edb8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-password-check .path5:before {
+	content: '\edb9';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-paypal .path1:before {
+	content: '\edba';
+}
+.app-icon-paypal .path2:before {
+	content: '\edbb';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-pencil .path1:before {
+	content: '\edbc';
+
+	opacity: 0.3;
+}
+.app-icon-pencil .path2:before {
+	content: '\edbd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-people .path1:before {
+	content: '\edbe';
+}
+.app-icon-people .path2:before {
+	content: '\edbf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-people .path3:before {
+	content: '\edc0';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-people .path4:before {
+	content: '\edc1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-people .path5:before {
+	content: '\edc2';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-percentage .path1:before {
+	content: '\edc3';
+}
+.app-icon-percentage .path2:before {
+	content: '\edc4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-phone .path1:before {
+	content: '\edc5';
+
+	opacity: 0.3;
+}
+.app-icon-phone .path2:before {
+	content: '\edc6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-photoshop .path1:before {
+	content: '\edc7';
+
+	opacity: 0.3;
+}
+.app-icon-photoshop .path2:before {
+	content: '\edc8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-picture .path1:before {
+	content: '\edc9';
+
+	opacity: 0.3;
+}
+.app-icon-picture .path2:before {
+	content: '\edca';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pill:before {
+	content: '\edcb';
+}
+.app-icon-pin .path1:before {
+	content: '\edcc';
+
+	opacity: 0.3;
+}
+.app-icon-pin .path2:before {
+	content: '\edcd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-plus-circle .path1:before {
+	content: '\edce';
+
+	opacity: 0.3;
+}
+.app-icon-plus-circle .path2:before {
+	content: '\edcf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-plus-square .path1:before {
+	content: '\edd0';
+
+	opacity: 0.3;
+}
+.app-icon-plus-square .path2:before {
+	content: '\edd1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-plus-square .path3:before {
+	content: '\edd2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-plus:before {
+	content: '\edd3';
+}
+.app-icon-pointers .path1:before {
+	content: '\edd4';
+
+	opacity: 0.3;
+}
+.app-icon-pointers .path2:before {
+	content: '\edd5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pointers .path3:before {
+	content: '\edd6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-price-tag .path1:before {
+	content: '\edd7';
+
+	opacity: 0.3;
+}
+.app-icon-price-tag .path2:before {
+	content: '\edd8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-price-tag .path3:before {
+	content: '\edd9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-printer .path1:before {
+	content: '\edda';
+
+	opacity: 0.3;
+}
+.app-icon-printer .path2:before {
+	content: '\eddb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-printer .path3:before {
+	content: '\eddc';
+	position: absolute;
+	left: 0;
+}
+.app-icon-printer .path4:before {
+	content: '\eddd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-printer .path5:before {
+	content: '\edde';
+	position: absolute;
+	left: 0;
+}
+.app-icon-profile-circle .path1:before {
+	content: '\eddf';
+
+	opacity: 0.3;
+}
+.app-icon-profile-circle .path2:before {
+	content: '\ede0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-profile-circle .path3:before {
+	content: '\ede1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-profile-user .path1:before {
+	content: '\ede2';
+
+	opacity: 0.3;
+}
+.app-icon-profile-user .path2:before {
+	content: '\ede3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-profile-user .path3:before {
+	content: '\ede4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-profile-user .path4:before {
+	content: '\ede5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-pulse .path1:before {
+	content: '\ede6';
+
+	opacity: 0.3;
+}
+.app-icon-pulse .path2:before {
+	content: '\ede7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-purchase .path1:before {
+	content: '\ede8';
+
+	opacity: 0.3;
+}
+.app-icon-purchase .path2:before {
+	content: '\ede9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-python .path1:before {
+	content: '\edea';
+
+	opacity: 0.3;
+}
+.app-icon-python .path2:before {
+	content: '\edeb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-question-2 .path1:before {
+	content: '\edec';
+
+	opacity: 0.3;
+}
+.app-icon-question-2 .path2:before {
+	content: '\eded';
+	position: absolute;
+	left: 0;
+}
+.app-icon-question-2 .path3:before {
+	content: '\edee';
+	position: absolute;
+	left: 0;
+}
+.app-icon-question .path1:before {
+	content: '\edef';
+
+	opacity: 0.3;
+}
+.app-icon-question .path2:before {
+	content: '\edf0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-question .path3:before {
+	content: '\edf1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-questionnaire-tablet .path1:before {
+	content: '\edf2';
+
+	opacity: 0.3;
+}
+.app-icon-questionnaire-tablet .path2:before {
+	content: '\edf3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ranking .path1:before {
+	content: '\edf4';
+
+	opacity: 0.3;
+}
+.app-icon-ranking .path2:before {
+	content: '\edf5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ranking .path3:before {
+	content: '\edf6';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ranking .path4:before {
+	content: '\edf7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-react .path1:before {
+	content: '\edf8';
+
+	opacity: 0.3;
+}
+.app-icon-react .path2:before {
+	content: '\edf9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-receipt-square .path1:before {
+	content: '\edfa';
+
+	opacity: 0.3;
+}
+.app-icon-receipt-square .path2:before {
+	content: '\edfb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-rescue .path1:before {
+	content: '\edfc';
+
+	opacity: 0.3;
+}
+.app-icon-rescue .path2:before {
+	content: '\edfd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-right-left .path1:before {
+	content: '\edfe';
+}
+.app-icon-right-left .path2:before {
+	content: '\edff';
+	position: absolute;
+	left: 0;
+}
+.app-icon-right-left .path3:before {
+	content: '\ee00';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-right-square .path1:before {
+	content: '\ee01';
+
+	opacity: 0.3;
+}
+.app-icon-right-square .path2:before {
+	content: '\ee02';
+	position: absolute;
+	left: 0;
+}
+.app-icon-right:before {
+	content: '\ee03';
+}
+.app-icon-rocket .path1:before {
+	content: '\ee04';
+
+	opacity: 0.3;
+}
+.app-icon-rocket .path2:before {
+	content: '\ee05';
+	position: absolute;
+	left: 0;
+}
+.app-icon-route .path1:before {
+	content: '\ee06';
+}
+.app-icon-route .path2:before {
+	content: '\ee07';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-route .path3:before {
+	content: '\ee08';
+	position: absolute;
+	left: 0;
+}
+.app-icon-route .path4:before {
+	content: '\ee09';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-router .path1:before {
+	content: '\ee0a';
+
+	opacity: 0.3;
+}
+.app-icon-router .path2:before {
+	content: '\ee0b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-row-horizontal .path1:before {
+	content: '\ee0c';
+}
+.app-icon-row-horizontal .path2:before {
+	content: '\ee0d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-row-vertical .path1:before {
+	content: '\ee0e';
+}
+.app-icon-row-vertical .path2:before {
+	content: '\ee0f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-safe-home .path1:before {
+	content: '\ee10';
+
+	opacity: 0.3;
+}
+.app-icon-safe-home .path2:before {
+	content: '\ee11';
+	position: absolute;
+	left: 0;
+}
+.app-icon-satellite .path1:before {
+	content: '\ee12';
+
+	opacity: 0.3;
+}
+.app-icon-satellite .path2:before {
+	content: '\ee13';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-satellite .path3:before {
+	content: '\ee14';
+	position: absolute;
+	left: 0;
+}
+.app-icon-satellite .path4:before {
+	content: '\ee15';
+	position: absolute;
+	left: 0;
+}
+.app-icon-satellite .path5:before {
+	content: '\ee16';
+	position: absolute;
+	left: 0;
+}
+.app-icon-satellite .path6:before {
+	content: '\ee17';
+	position: absolute;
+	left: 0;
+}
+.app-icon-save-2 .path1:before {
+	content: '\ee18';
+
+	opacity: 0.3;
+}
+.app-icon-save-2 .path2:before {
+	content: '\ee19';
+	position: absolute;
+	left: 0;
+}
+.app-icon-save-deposit .path1:before {
+	content: '\ee1a';
+}
+.app-icon-save-deposit .path2:before {
+	content: '\ee1b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-save-deposit .path3:before {
+	content: '\ee1c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-save-deposit .path4:before {
+	content: '\ee1d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scan-barcode .path1:before {
+	content: '\ee1e';
+}
+.app-icon-scan-barcode .path2:before {
+	content: '\ee1f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-scan-barcode .path3:before {
+	content: '\ee20';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-scan-barcode .path4:before {
+	content: '\ee21';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scan-barcode .path5:before {
+	content: '\ee22';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-scan-barcode .path6:before {
+	content: '\ee23';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scan-barcode .path7:before {
+	content: '\ee24';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scan-barcode .path8:before {
+	content: '\ee25';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-scooter-2:before {
+	content: '\ee26';
+}
+.app-icon-scooter .path1:before {
+	content: '\ee27';
+}
+.app-icon-scooter .path2:before {
+	content: '\ee28';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scooter .path3:before {
+	content: '\ee29';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scooter .path4:before {
+	content: '\ee2a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-scooter .path5:before {
+	content: '\ee2b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scooter .path6:before {
+	content: '\ee2c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scooter .path7:before {
+	content: '\ee2d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-screen .path1:before {
+	content: '\ee2e';
+
+	opacity: 0.3;
+}
+.app-icon-screen .path2:before {
+	content: '\ee2f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-screen .path3:before {
+	content: '\ee30';
+	position: absolute;
+	left: 0;
+}
+.app-icon-screen .path4:before {
+	content: '\ee31';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scroll .path1:before {
+	content: '\ee32';
+
+	opacity: 0.3;
+}
+.app-icon-scroll .path2:before {
+	content: '\ee33';
+	position: absolute;
+	left: 0;
+}
+.app-icon-scroll .path3:before {
+	content: '\ee34';
+	position: absolute;
+	left: 0;
+}
+.app-icon-search-list .path1:before {
+	content: '\ee35';
+
+	opacity: 0.3;
+}
+.app-icon-search-list .path2:before {
+	content: '\ee36';
+	position: absolute;
+	left: 0;
+}
+.app-icon-search-list .path3:before {
+	content: '\ee37';
+	position: absolute;
+	left: 0;
+}
+.app-icon-security-check .path1:before {
+	content: '\ee38';
+}
+.app-icon-security-check .path2:before {
+	content: '\ee39';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-security-check .path3:before {
+	content: '\ee3a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-security-check .path4:before {
+	content: '\ee3b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-security-user .path1:before {
+	content: '\ee3c';
+
+	opacity: 0.3;
+}
+.app-icon-security-user .path2:before {
+	content: '\ee3d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-send .path1:before {
+	content: '\ee3e';
+}
+.app-icon-send .path2:before {
+	content: '\ee3f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-setting-2 .path1:before {
+	content: '\ee40';
+
+	opacity: 0.3;
+}
+.app-icon-setting-2 .path2:before {
+	content: '\ee41';
+	position: absolute;
+	left: 0;
+}
+.app-icon-setting-3 .path1:before {
+	content: '\ee42';
+
+	opacity: 0.3;
+}
+.app-icon-setting-3 .path2:before {
+	content: '\ee43';
+	position: absolute;
+	left: 0;
+}
+.app-icon-setting-3 .path3:before {
+	content: '\ee44';
+	position: absolute;
+	left: 0;
+}
+.app-icon-setting-3 .path4:before {
+	content: '\ee45';
+	position: absolute;
+	left: 0;
+}
+.app-icon-setting-3 .path5:before {
+	content: '\ee46';
+	position: absolute;
+	left: 0;
+}
+.app-icon-setting-4:before {
+	content: '\ee47';
+}
+.app-icon-setting .path1:before {
+	content: '\ee48';
+
+	opacity: 0.3;
+}
+.app-icon-setting .path2:before {
+	content: '\ee49';
+	position: absolute;
+	left: 0;
+}
+.app-icon-share .path1:before {
+	content: '\ee4a';
+
+	opacity: 0.3;
+}
+.app-icon-share .path2:before {
+	content: '\ee4b';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-share .path3:before {
+	content: '\ee4c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-share .path4:before {
+	content: '\ee4d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-share .path5:before {
+	content: '\ee4e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-share .path6:before {
+	content: '\ee4f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-shield-cross .path1:before {
+	content: '\ee50';
+
+	opacity: 0.3;
+}
+.app-icon-shield-cross .path2:before {
+	content: '\ee51';
+	position: absolute;
+	left: 0;
+}
+.app-icon-shield-cross .path3:before {
+	content: '\ee52';
+	position: absolute;
+	left: 0;
+}
+.app-icon-shield-search .path1:before {
+	content: '\ee53';
+
+	opacity: 0.3;
+}
+.app-icon-shield-search .path2:before {
+	content: '\ee54';
+	position: absolute;
+	left: 0;
+}
+.app-icon-shield-search .path3:before {
+	content: '\ee55';
+	position: absolute;
+	left: 0;
+}
+.app-icon-shield-slash .path1:before {
+	content: '\ee56';
+}
+.app-icon-shield-slash .path2:before {
+	content: '\ee57';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-shield-slash .path3:before {
+	content: '\ee58';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-shield-tick .path1:before {
+	content: '\ee59';
+
+	opacity: 0.3;
+}
+.app-icon-shield-tick .path2:before {
+	content: '\ee5a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-shield .path1:before {
+	content: '\ee5b';
+
+	opacity: 0.3;
+}
+.app-icon-shield .path2:before {
+	content: '\ee5c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ship .path1:before {
+	content: '\ee5d';
+
+	opacity: 0.3;
+}
+.app-icon-ship .path2:before {
+	content: '\ee5e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ship .path3:before {
+	content: '\ee5f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-shop .path1:before {
+	content: '\ee60';
+}
+.app-icon-shop .path2:before {
+	content: '\ee61';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-shop .path3:before {
+	content: '\ee62';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-shop .path4:before {
+	content: '\ee63';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-shop .path5:before {
+	content: '\ee64';
+	position: absolute;
+	left: 0;
+}
+.app-icon-simcard-2 .path1:before {
+	content: '\ee65';
+
+	opacity: 0.3;
+}
+.app-icon-simcard-2 .path2:before {
+	content: '\ee66';
+	position: absolute;
+	left: 0;
+}
+.app-icon-simcard .path1:before {
+	content: '\ee67';
+
+	opacity: 0.3;
+}
+.app-icon-simcard .path2:before {
+	content: '\ee68';
+	position: absolute;
+	left: 0;
+}
+.app-icon-simcard .path3:before {
+	content: '\ee69';
+	position: absolute;
+	left: 0;
+}
+.app-icon-simcard .path4:before {
+	content: '\ee6a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-simcard .path5:before {
+	content: '\ee6b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-size .path1:before {
+	content: '\ee6c';
+
+	opacity: 0.3;
+}
+.app-icon-size .path2:before {
+	content: '\ee6d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slack .path1:before {
+	content: '\ee6e';
+}
+.app-icon-slack .path2:before {
+	content: '\ee6f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slack .path3:before {
+	content: '\ee70';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slack .path4:before {
+	content: '\ee71';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slack .path5:before {
+	content: '\ee72';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-slack .path6:before {
+	content: '\ee73';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-slack .path7:before {
+	content: '\ee74';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-slack .path8:before {
+	content: '\ee75';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-slider-horizontal-2 .path1:before {
+	content: '\ee76';
+}
+.app-icon-slider-horizontal-2 .path2:before {
+	content: '\ee77';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slider-horizontal-2 .path3:before {
+	content: '\ee78';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-slider-horizontal .path1:before {
+	content: '\ee79';
+
+	opacity: 0.3;
+}
+.app-icon-slider-horizontal .path2:before {
+	content: '\ee7a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slider-horizontal .path3:before {
+	content: '\ee7b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slider-vertical-2 .path1:before {
+	content: '\ee7c';
+
+	opacity: 0.3;
+}
+.app-icon-slider-vertical-2 .path2:before {
+	content: '\ee7d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slider-vertical-2 .path3:before {
+	content: '\ee7e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slider-vertical .path1:before {
+	content: '\ee7f';
+}
+.app-icon-slider-vertical .path2:before {
+	content: '\ee80';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slider-vertical .path3:before {
+	content: '\ee81';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-slider .path1:before {
+	content: '\ee82';
+
+	opacity: 0.3;
+}
+.app-icon-slider .path2:before {
+	content: '\ee83';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slider .path3:before {
+	content: '\ee84';
+	position: absolute;
+	left: 0;
+}
+.app-icon-slider .path4:before {
+	content: '\ee85';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sms .path1:before {
+	content: '\ee86';
+
+	opacity: 0.3;
+}
+.app-icon-sms .path2:before {
+	content: '\ee87';
+	position: absolute;
+	left: 0;
+}
+.app-icon-snapchat .path1:before {
+	content: '\ee88';
+}
+.app-icon-snapchat .path2:before {
+	content: '\ee89';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-social-media .path1:before {
+	content: '\ee8a';
+}
+.app-icon-social-media .path2:before {
+	content: '\ee8b';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-soft-2 .path1:before {
+	content: '\ee8c';
+
+	opacity: 0.3;
+}
+.app-icon-soft-2 .path2:before {
+	content: '\ee8d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-soft-3 .path1:before {
+	content: '\ee8e';
+}
+.app-icon-soft-3 .path2:before {
+	content: '\ee8f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-soft .path1:before {
+	content: '\ee90';
+
+	opacity: 0.3;
+}
+.app-icon-soft .path2:before {
+	content: '\ee91';
+	position: absolute;
+	left: 0;
+}
+.app-icon-soft .path3:before {
+	content: '\ee92';
+	position: absolute;
+	left: 0;
+}
+.app-icon-soft .path4:before {
+	content: '\ee93';
+	position: absolute;
+	left: 0;
+}
+.app-icon-soft .path5:before {
+	content: '\ee94';
+	position: absolute;
+	left: 0;
+}
+.app-icon-soft .path6:before {
+	content: '\ee95';
+	position: absolute;
+	left: 0;
+}
+.app-icon-some-files .path1:before {
+	content: '\ee96';
+
+	opacity: 0.3;
+}
+.app-icon-some-files .path2:before {
+	content: '\ee97';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sort .path1:before {
+	content: '\ee98';
+
+	opacity: 0.3;
+}
+.app-icon-sort .path2:before {
+	content: '\ee99';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sort .path3:before {
+	content: '\ee9a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sort .path4:before {
+	content: '\ee9b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-speaker .path1:before {
+	content: '\ee9c';
+
+	opacity: 0.3;
+}
+.app-icon-speaker .path2:before {
+	content: '\ee9d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-speaker .path3:before {
+	content: '\ee9e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-spotify .path1:before {
+	content: '\ee9f';
+}
+.app-icon-spotify .path2:before {
+	content: '\eea0';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-spring-framework:before {
+	content: '\eea1';
+}
+.app-icon-square-brackets .path1:before {
+	content: '\eea2';
+
+	opacity: 0.3;
+}
+.app-icon-square-brackets .path2:before {
+	content: '\eea3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-square-brackets .path3:before {
+	content: '\eea4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-square-brackets .path4:before {
+	content: '\eea5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-star:before {
+	content: '\eea6';
+}
+.app-icon-status .path1:before {
+	content: '\eea7';
+
+	opacity: 0.3;
+}
+.app-icon-status .path2:before {
+	content: '\eea8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-status .path3:before {
+	content: '\eea9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-subtitle .path1:before {
+	content: '\eeaa';
+
+	opacity: 0.3;
+}
+.app-icon-subtitle .path2:before {
+	content: '\eeab';
+	position: absolute;
+	left: 0;
+}
+.app-icon-subtitle .path3:before {
+	content: '\eeac';
+	position: absolute;
+	left: 0;
+}
+.app-icon-subtitle .path4:before {
+	content: '\eead';
+	position: absolute;
+	left: 0;
+}
+.app-icon-subtitle .path5:before {
+	content: '\eeae';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sun .path1:before {
+	content: '\eeaf';
+}
+.app-icon-sun .path2:before {
+	content: '\eeb0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sun .path3:before {
+	content: '\eeb1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sun .path4:before {
+	content: '\eeb2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sun .path5:before {
+	content: '\eeb3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sun .path6:before {
+	content: '\eeb4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sun .path7:before {
+	content: '\eeb5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sun .path8:before {
+	content: '\eeb6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-sun .path9:before {
+	content: '\eeb7';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-support-24 .path1:before {
+	content: '\eeb8';
+
+	opacity: 0.3;
+}
+.app-icon-support-24 .path2:before {
+	content: '\eeb9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-support-24 .path3:before {
+	content: '\eeba';
+	position: absolute;
+	left: 0;
+}
+.app-icon-switch .path1:before {
+	content: '\eebb';
+}
+.app-icon-switch .path2:before {
+	content: '\eebc';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-syringe .path1:before {
+	content: '\eebd';
+
+	opacity: 0.3;
+}
+.app-icon-syringe .path2:before {
+	content: '\eebe';
+	position: absolute;
+	left: 0;
+}
+.app-icon-syringe .path3:before {
+	content: '\eebf';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet-book .path1:before {
+	content: '\eec0';
+
+	opacity: 0.3;
+}
+.app-icon-tablet-book .path2:before {
+	content: '\eec1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet-delete .path1:before {
+	content: '\eec2';
+}
+.app-icon-tablet-delete .path2:before {
+	content: '\eec3';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-tablet-delete .path3:before {
+	content: '\eec4';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet-down .path1:before {
+	content: '\eec5';
+
+	opacity: 0.3;
+}
+.app-icon-tablet-down .path2:before {
+	content: '\eec6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet-down .path3:before {
+	content: '\eec7';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet-ok .path1:before {
+	content: '\eec8';
+}
+.app-icon-tablet-ok .path2:before {
+	content: '\eec9';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-tablet-ok .path3:before {
+	content: '\eeca';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet-text-down .path1:before {
+	content: '\eecb';
+}
+.app-icon-tablet-text-down .path2:before {
+	content: '\eecc';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet-text-down .path3:before {
+	content: '\eecd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet-text-down .path4:before {
+	content: '\eece';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-tablet-text-up .path1:before {
+	content: '\eecf';
+}
+.app-icon-tablet-text-up .path2:before {
+	content: '\eed0';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-tablet-up .path1:before {
+	content: '\eed1';
+
+	opacity: 0.3;
+}
+.app-icon-tablet-up .path2:before {
+	content: '\eed2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet-up .path3:before {
+	content: '\eed3';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet .path1:before {
+	content: '\eed4';
+
+	opacity: 0.3;
+}
+.app-icon-tablet .path2:before {
+	content: '\eed5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tablet .path3:before {
+	content: '\eed6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tag-cross .path1:before {
+	content: '\eed7';
+
+	opacity: 0.3;
+}
+.app-icon-tag-cross .path2:before {
+	content: '\eed8';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tag-cross .path3:before {
+	content: '\eed9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tag .path1:before {
+	content: '\eeda';
+
+	opacity: 0.3;
+}
+.app-icon-tag .path2:before {
+	content: '\eedb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tag .path3:before {
+	content: '\eedc';
+	position: absolute;
+	left: 0;
+}
+.app-icon-teacher .path1:before {
+	content: '\eedd';
+
+	opacity: 0.3;
+}
+.app-icon-teacher .path2:before {
+	content: '\eede';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tech-wifi .path1:before {
+	content: '\eedf';
+
+	opacity: 0.3;
+}
+.app-icon-tech-wifi .path2:before {
+	content: '\eee0';
+	position: absolute;
+	left: 0;
+}
+.app-icon-technology-2 .path1:before {
+	content: '\eee1';
+
+	opacity: 0.3;
+}
+.app-icon-technology-2 .path2:before {
+	content: '\eee2';
+	position: absolute;
+	left: 0;
+}
+.app-icon-technology-3 .path1:before {
+	content: '\eee3';
+}
+.app-icon-technology-3 .path2:before {
+	content: '\eee4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology-3 .path3:before {
+	content: '\eee5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology-3 .path4:before {
+	content: '\eee6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-technology-4 .path1:before {
+	content: '\eee7';
+}
+.app-icon-technology-4 .path2:before {
+	content: '\eee8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology-4 .path3:before {
+	content: '\eee9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-technology-4 .path4:before {
+	content: '\eeea';
+	position: absolute;
+	left: 0;
+}
+.app-icon-technology-4 .path5:before {
+	content: '\eeeb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-technology-4 .path6:before {
+	content: '\eeec';
+	position: absolute;
+	left: 0;
+}
+.app-icon-technology-4 .path7:before {
+	content: '\eeed';
+	position: absolute;
+	left: 0;
+}
+.app-icon-technology .path1:before {
+	content: '\eeee';
+}
+.app-icon-technology .path2:before {
+	content: '\eeef';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology .path3:before {
+	content: '\eef0';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology .path4:before {
+	content: '\eef1';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology .path5:before {
+	content: '\eef2';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology .path6:before {
+	content: '\eef3';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology .path7:before {
+	content: '\eef4';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology .path8:before {
+	content: '\eef5';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-technology .path9:before {
+	content: '\eef6';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-telephone-geolocation .path1:before {
+	content: '\eef7';
+}
+.app-icon-telephone-geolocation .path2:before {
+	content: '\eef8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-telephone-geolocation .path3:before {
+	content: '\eef9';
+	position: absolute;
+	left: 0;
+}
+.app-icon-test-tubes .path1:before {
+	content: '\eefa';
+
+	opacity: 0.3;
+}
+.app-icon-test-tubes .path2:before {
+	content: '\eefb';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-align-center .path1:before {
+	content: '\eefc';
+}
+.app-icon-text-align-center .path2:before {
+	content: '\eefd';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-align-center .path3:before {
+	content: '\eefe';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-align-center .path4:before {
+	content: '\eeff';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-align-justify-center .path1:before {
+	content: '\ef00';
+}
+.app-icon-text-align-justify-center .path2:before {
+	content: '\ef01';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-align-justify-center .path3:before {
+	content: '\ef02';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-align-justify-center .path4:before {
+	content: '\ef03';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-align-left .path1:before {
+	content: '\ef04';
+}
+.app-icon-text-align-left .path2:before {
+	content: '\ef05';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-align-left .path3:before {
+	content: '\ef06';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-align-left .path4:before {
+	content: '\ef07';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-align-right .path1:before {
+	content: '\ef08';
+}
+.app-icon-text-align-right .path2:before {
+	content: '\ef09';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-align-right .path3:before {
+	content: '\ef0a';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-align-right .path4:before {
+	content: '\ef0b';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-bold .path1:before {
+	content: '\ef0c';
+
+	opacity: 0.3;
+}
+.app-icon-text-bold .path2:before {
+	content: '\ef0d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-bold .path3:before {
+	content: '\ef0e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-circle .path1:before {
+	content: '\ef0f';
+}
+.app-icon-text-circle .path2:before {
+	content: '\ef10';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-circle .path3:before {
+	content: '\ef11';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-circle .path4:before {
+	content: '\ef12';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-circle .path5:before {
+	content: '\ef13';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-circle .path6:before {
+	content: '\ef14';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-italic .path1:before {
+	content: '\ef15';
+
+	opacity: 0.3;
+}
+.app-icon-text-italic .path2:before {
+	content: '\ef16';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-italic .path3:before {
+	content: '\ef17';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-italic .path4:before {
+	content: '\ef18';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-number .path1:before {
+	content: '\ef19';
+}
+.app-icon-text-number .path2:before {
+	content: '\ef1a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-number .path3:before {
+	content: '\ef1b';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-number .path4:before {
+	content: '\ef1c';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-number .path5:before {
+	content: '\ef1d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-number .path6:before {
+	content: '\ef1e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-strikethrough .path1:before {
+	content: '\ef1f';
+
+	opacity: 0.3;
+}
+.app-icon-text-strikethrough .path2:before {
+	content: '\ef20';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-text-strikethrough .path3:before {
+	content: '\ef21';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-underline .path1:before {
+	content: '\ef22';
+
+	opacity: 0.3;
+}
+.app-icon-text-underline .path2:before {
+	content: '\ef23';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text-underline .path3:before {
+	content: '\ef24';
+	position: absolute;
+	left: 0;
+}
+.app-icon-text:before {
+	content: '\ef25';
+}
+.app-icon-thermometer .path1:before {
+	content: '\ef26';
+
+	opacity: 0.3;
+}
+.app-icon-thermometer .path2:before {
+	content: '\ef27';
+	position: absolute;
+	left: 0;
+}
+.app-icon-theta .path1:before {
+	content: '\ef28';
+}
+.app-icon-theta .path2:before {
+	content: '\ef29';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-tiktok .path1:before {
+	content: '\ef2a';
+
+	opacity: 0.3;
+}
+.app-icon-tiktok .path2:before {
+	content: '\ef2b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-time .path1:before {
+	content: '\ef2c';
+
+	opacity: 0.3;
+}
+.app-icon-time .path2:before {
+	content: '\ef2d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-timer .path1:before {
+	content: '\ef2e';
+
+	opacity: 0.3;
+}
+.app-icon-timer .path2:before {
+	content: '\ef2f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-timer .path3:before {
+	content: '\ef30';
+	position: absolute;
+	left: 0;
+}
+.app-icon-to-left:before {
+	content: '\ef31';
+}
+.app-icon-to-right:before {
+	content: '\ef32';
+}
+.app-icon-toggle-off-circle .path1:before {
+	content: '\ef33';
+
+	opacity: 0.3;
+}
+.app-icon-toggle-off-circle .path2:before {
+	content: '\ef34';
+	position: absolute;
+	left: 0;
+}
+.app-icon-toggle-off .path1:before {
+	content: '\ef35';
+
+	opacity: 0.3;
+}
+.app-icon-toggle-off .path2:before {
+	content: '\ef36';
+	position: absolute;
+	left: 0;
+}
+.app-icon-toggle-on-circle .path1:before {
+	content: '\ef37';
+
+	opacity: 0.3;
+}
+.app-icon-toggle-on-circle .path2:before {
+	content: '\ef38';
+	position: absolute;
+	left: 0;
+}
+.app-icon-toggle-on .path1:before {
+	content: '\ef39';
+
+	opacity: 0.3;
+}
+.app-icon-toggle-on .path2:before {
+	content: '\ef3a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trailer .path1:before {
+	content: '\ef3b';
+}
+.app-icon-trailer .path2:before {
+	content: '\ef3c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trailer .path3:before {
+	content: '\ef3d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trailer .path4:before {
+	content: '\ef3e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trailer .path5:before {
+	content: '\ef3f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-trash-square .path1:before {
+	content: '\ef40';
+
+	opacity: 0.3;
+}
+.app-icon-trash-square .path2:before {
+	content: '\ef41';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trash-square .path3:before {
+	content: '\ef42';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trash-square .path4:before {
+	content: '\ef43';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trash .path1:before {
+	content: '\ef44';
+
+	opacity: 0.3;
+}
+.app-icon-trash .path2:before {
+	content: '\ef45';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trash .path3:before {
+	content: '\ef46';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trash .path4:before {
+	content: '\ef47';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trash .path5:before {
+	content: '\ef48';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tree .path1:before {
+	content: '\ef49';
+
+	opacity: 0.3;
+}
+.app-icon-tree .path2:before {
+	content: '\ef4a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-tree .path3:before {
+	content: '\ef4b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trello .path1:before {
+	content: '\ef4c';
+
+	opacity: 0.3;
+}
+.app-icon-trello .path2:before {
+	content: '\ef4d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-trello .path3:before {
+	content: '\ef4e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-triangle .path1:before {
+	content: '\ef4f';
+}
+.app-icon-triangle .path2:before {
+	content: '\ef50';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-triangle .path3:before {
+	content: '\ef51';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-truck .path1:before {
+	content: '\ef52';
+}
+.app-icon-truck .path2:before {
+	content: '\ef53';
+	position: absolute;
+	left: 0;
+}
+.app-icon-truck .path3:before {
+	content: '\ef54';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-truck .path4:before {
+	content: '\ef55';
+	position: absolute;
+	left: 0;
+}
+.app-icon-truck .path5:before {
+	content: '\ef56';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-ts .path1:before {
+	content: '\ef57';
+
+	opacity: 0.3;
+}
+.app-icon-ts .path2:before {
+	content: '\ef58';
+	position: absolute;
+	left: 0;
+}
+.app-icon-ts .path3:before {
+	content: '\ef59';
+	position: absolute;
+	left: 0;
+}
+.app-icon-twitch .path1:before {
+	content: '\ef5a';
+
+	opacity: 0.3;
+}
+.app-icon-twitch .path2:before {
+	content: '\ef5b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-twitch .path3:before {
+	content: '\ef5c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-twitter .path1:before {
+	content: '\ef5d';
+
+	opacity: 0.3;
+}
+.app-icon-twitter .path2:before {
+	content: '\ef5e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-two-credit-cart .path1:before {
+	content: '\ef5f';
+}
+.app-icon-two-credit-cart .path2:before {
+	content: '\ef60';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-two-credit-cart .path3:before {
+	content: '\ef61';
+	position: absolute;
+	left: 0;
+}
+.app-icon-two-credit-cart .path4:before {
+	content: '\ef62';
+	position: absolute;
+	left: 0;
+}
+.app-icon-two-credit-cart .path5:before {
+	content: '\ef63';
+	position: absolute;
+	left: 0;
+}
+.app-icon-underlining .path1:before {
+	content: '\ef64';
+
+	opacity: 0.3;
+}
+.app-icon-underlining .path2:before {
+	content: '\ef65';
+	position: absolute;
+	left: 0;
+}
+.app-icon-underlining .path3:before {
+	content: '\ef66';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-up-down .path1:before {
+	content: '\ef67';
+
+	opacity: 0.3;
+}
+.app-icon-up-down .path2:before {
+	content: '\ef68';
+	position: absolute;
+	left: 0;
+}
+.app-icon-up-down .path3:before {
+	content: '\ef69';
+	position: absolute;
+	left: 0;
+}
+.app-icon-up-square .path1:before {
+	content: '\ef6a';
+
+	opacity: 0.3;
+}
+.app-icon-up-square .path2:before {
+	content: '\ef6b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-up:before {
+	content: '\ef6c';
+}
+.app-icon-update-file .path1:before {
+	content: '\ef6d';
+
+	opacity: 0.3;
+}
+.app-icon-update-file .path2:before {
+	content: '\ef6e';
+	position: absolute;
+	left: 0;
+}
+.app-icon-update-file .path3:before {
+	content: '\ef6f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-update-file .path4:before {
+	content: '\ef70';
+	position: absolute;
+	left: 0;
+}
+.app-icon-update-folder .path1:before {
+	content: '\ef71';
+
+	opacity: 0.3;
+}
+.app-icon-update-folder .path2:before {
+	content: '\ef72';
+	position: absolute;
+	left: 0;
+}
+.app-icon-user-edit .path1:before {
+	content: '\ef73';
+}
+.app-icon-user-edit .path2:before {
+	content: '\ef74';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-user-edit .path3:before {
+	content: '\ef75';
+	position: absolute;
+	left: 0;
+}
+.app-icon-user-square .path1:before {
+	content: '\ef76';
+
+	opacity: 0.3;
+}
+.app-icon-user-square .path2:before {
+	content: '\ef77';
+	position: absolute;
+	left: 0;
+}
+.app-icon-user-square .path3:before {
+	content: '\ef78';
+	position: absolute;
+	left: 0;
+}
+.app-icon-user-tick .path1:before {
+	content: '\ef79';
+}
+.app-icon-user-tick .path2:before {
+	content: '\ef7a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-user-tick .path3:before {
+	content: '\ef7b';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-user .path1:before {
+	content: '\ef7c';
+
+	opacity: 0.3;
+}
+.app-icon-user .path2:before {
+	content: '\ef7d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-verify .path1:before {
+	content: '\ef7e';
+
+	opacity: 0.3;
+}
+.app-icon-verify .path2:before {
+	content: '\ef7f';
+	position: absolute;
+	left: 0;
+}
+.app-icon-vibe .path1:before {
+	content: '\ef80';
+}
+.app-icon-vibe .path2:before {
+	content: '\ef81';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-virus .path1:before {
+	content: '\ef82';
+
+	opacity: 0.3;
+}
+.app-icon-virus .path2:before {
+	content: '\ef83';
+	position: absolute;
+	left: 0;
+}
+.app-icon-virus .path3:before {
+	content: '\ef84';
+	position: absolute;
+	left: 0;
+}
+.app-icon-vue .path1:before {
+	content: '\ef85';
+
+	opacity: 0.3;
+}
+.app-icon-vue .path2:before {
+	content: '\ef86';
+	position: absolute;
+	left: 0;
+}
+.app-icon-vuesax .path1:before {
+	content: '\ef87';
+}
+.app-icon-vuesax .path2:before {
+	content: '\ef88';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.4;
+}
+.app-icon-vuesax .path3:before {
+	content: '\ef89';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wallet .path1:before {
+	content: '\ef8a';
+
+	opacity: 0.3;
+}
+.app-icon-wallet .path2:before {
+	content: '\ef8b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wallet .path3:before {
+	content: '\ef8c';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wallet .path4:before {
+	content: '\ef8d';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wanchain .path1:before {
+	content: '\ef8e';
+}
+.app-icon-wanchain .path2:before {
+	content: '\ef8f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-watch .path1:before {
+	content: '\ef90';
+
+	opacity: 0.3;
+}
+.app-icon-watch .path2:before {
+	content: '\ef91';
+	position: absolute;
+	left: 0;
+}
+.app-icon-whatsapp .path1:before {
+	content: '\ef92';
+
+	opacity: 0.4;
+}
+.app-icon-whatsapp .path2:before {
+	content: '\ef93';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wifi-home .path1:before {
+	content: '\ef94';
+
+	opacity: 0.3;
+}
+.app-icon-wifi-home .path2:before {
+	content: '\ef95';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wifi-home .path3:before {
+	content: '\ef96';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wifi-home .path4:before {
+	content: '\ef97';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wifi-square .path1:before {
+	content: '\ef98';
+
+	opacity: 0.3;
+}
+.app-icon-wifi-square .path2:before {
+	content: '\ef99';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wifi-square .path3:before {
+	content: '\ef9a';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wifi-square .path4:before {
+	content: '\ef9b';
+	position: absolute;
+	left: 0;
+}
+.app-icon-wifi .path1:before {
+	content: '\ef9c';
+}
+.app-icon-wifi .path2:before {
+	content: '\ef9d';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-wifi .path3:before {
+	content: '\ef9e';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-wifi .path4:before {
+	content: '\ef9f';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-wrench .path1:before {
+	content: '\efa0';
+
+	opacity: 0.3;
+}
+.app-icon-wrench .path2:before {
+	content: '\efa1';
+	position: absolute;
+	left: 0;
+}
+.app-icon-xaomi .path1:before {
+	content: '\efa2';
+}
+.app-icon-xaomi .path2:before {
+	content: '\efa3';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-xd .path1:before {
+	content: '\efa4';
+
+	opacity: 0.3;
+}
+.app-icon-xd .path2:before {
+	content: '\efa5';
+	position: absolute;
+	left: 0;
+}
+.app-icon-xd .path3:before {
+	content: '\efa6';
+	position: absolute;
+	left: 0;
+}
+.app-icon-xmr .path1:before {
+	content: '\efa7';
+}
+.app-icon-xmr .path2:before {
+	content: '\efa8';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-yii .path1:before {
+	content: '\efa9';
+
+	opacity: 0.3;
+}
+.app-icon-yii .path2:before {
+	content: '\efaa';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+.app-icon-yii .path3:before {
+	content: '\efab';
+	position: absolute;
+	left: 0;
+}
+.app-icon-youtube .path1:before {
+	content: '\efac';
+}
+.app-icon-youtube .path2:before {
+	content: '\efad';
+	position: absolute;
+	left: 0;
+
+	opacity: 0.3;
+}
+
+.app-icon-duotone i {
+	font-style: normal;
+}
