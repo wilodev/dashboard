@@ -10,6 +10,7 @@ import clsx from 'clsx';
 
 import { ProjectItemInterface } from '@/components/Aside/types';
 import { AppStoreInterface, useAppStore } from '@/store/store';
+import { CardLine } from '@/ui/CardLine';
 import { TableRubros } from '@/ui/TableRubros';
 
 export default function Project({ params }: { params: { slug: string } }) {
@@ -24,6 +25,12 @@ export default function Project({ params }: { params: { slug: string } }) {
 	// console.log(params.slug);
 	const currentProject = projects.find(
 		(project: ProjectItemInterface) => project.id === params.slug
+	);
+	const currentDate = new Date();
+	// Genera un número aleatorio entre 50 y 200
+	const randomDays = Math.floor(Math.random() * (200 - 50 + 1)) + 50;
+	const newDate = new Date(
+		currentDate.getTime() + randomDays * 24 * 60 * 60 * 1000
 	);
 	if (!currentProject) return <div>El proyecto no existe</div>;
 	return (
@@ -152,6 +159,29 @@ export default function Project({ params }: { params: { slug: string } }) {
 										{/* <!--end::Label--> */}
 									</div>
 									{/* <!--end::Stat--> */}
+
+									{/* <!--begin::Stat--> */}
+									<div className="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
+										{/* <!--begin::Number--> */}
+										<div className="d-flex align-items-center">
+											<div className="fs-4 fw-bold">
+												{/* A la fecha de inicio startDate se sume un valor random de días entre 50 a 200 días */}
+												{newDate.toLocaleDateString('es-ES', {
+													year: 'numeric',
+													month: 'long',
+													day: 'numeric',
+												})}
+											</div>
+										</div>
+										{/* <!--end::Number--> */}
+
+										{/* <!--begin::Label--> */}
+										<div className="fw-semibold fs-6 text-gray-400">
+											Fecha posible finalización
+										</div>
+										{/* <!--end::Label--> */}
+									</div>
+									{/* <!--end::Stat--> */}
 								</div>
 								{/* <!--end::Stats--> */}
 							</div>
@@ -163,6 +193,9 @@ export default function Project({ params }: { params: { slug: string } }) {
 
 					<div className="separator" />
 				</div>
+			</div>
+			<div className="card mb-6 mb-xl-9">
+				<CardLine />
 			</div>
 			<TableRubros {...currentProject} />
 		</>
